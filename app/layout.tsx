@@ -50,6 +50,7 @@ function RootLayout({ children }: { children: React.ReactNode }) {
           modalIsOpen={modalIsOpen}
           handleBurgerClick={handleBurgerClick}
         />
+
         {children}
 
         <Footer />
