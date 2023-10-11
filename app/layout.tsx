@@ -5,6 +5,7 @@ import "./globals.css";
 import classes from "./styles.module.css";
 import { useState, useEffect } from "react";
 import Nav from "@/components/nav/Nav";
+import Footer from "@/components/footer/Footer";
 
 function RootLayout({ children }: { children: React.ReactNode }) {
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
@@ -13,6 +14,7 @@ function RootLayout({ children }: { children: React.ReactNode }) {
     setIsBurgerOpen(!isBurgerOpen);
   };
 
+  // Close the modal when clicking outside
   useEffect(() => {
     // Add a click event listener to the document
     const closeOnOutsideClick = (event: MouseEvent) => {
@@ -48,8 +50,9 @@ function RootLayout({ children }: { children: React.ReactNode }) {
           modalIsOpen={modalIsOpen}
           handleBurgerClick={handleBurgerClick}
         />
-
         {children}
+
+        <Footer />
       </body>
     </html>
   );
