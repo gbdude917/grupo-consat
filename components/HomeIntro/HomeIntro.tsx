@@ -6,7 +6,7 @@ import logoPic from "../../public/images/Logo.png";
 
 const HomeIntro = () => {
   return (
-    <div className={classes.wrapper}>
+    <div className={`${classes.wrapper} ${classes["slide-right"]}`}>
       <div className={classes.textContainer}>
         <h3>
           Somos una empresa mexicana con sede en Tijuana Baja California,

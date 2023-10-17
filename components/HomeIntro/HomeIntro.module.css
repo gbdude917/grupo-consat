@@ -3,6 +3,23 @@
   padding: 20px 0;
 }
 
+/* Slide-right animation */
+.slide-right {
+  animation: 1.5s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-right: 150%;
+    opacity: 0;
+  }
+
+  to {
+    margin-right: 0%;
+    opacity: 1;
+  }
+}
+
 .textContainer {
   width: 70vw;
   padding: 0 100px;
