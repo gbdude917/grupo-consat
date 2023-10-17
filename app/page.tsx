@@ -1,3 +1,4 @@
+import CardPictureContainer from "@/components/cardpicturecontainer/CardPictureContainer";
 import styles from "./page.module.css";
 
 import ImageCarousel from "@/components/carousel/ImageCarousel";
@@ -17,6 +18,8 @@ const Home = () => {
         <ImageCarousel />
 
         <HomeIntro />
+
+        <CardPictureContainer />
       </main>
     </>
   );

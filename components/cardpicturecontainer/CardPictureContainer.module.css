@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Slide-right animation */
+.slide-right {
+  animation: 1.5s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-right: 150%;
+    opacity: 0;
+  }
+
+  to {
+    margin-right: 0%;
+    opacity: 1;
+  }
+}

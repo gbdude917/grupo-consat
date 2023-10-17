@@ -1,0 +1,75 @@
+.container {
+  width: 33%;
+  height: 112.5px;
+  text-decoration: none;
+
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.textContainer h3,
+.textContainer a {
+  color: white;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainer h3 {
+  font-size: 30px;
+  text-decoration: underline #98b460;
+}
+
+.textContainer a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.arrow-right {
+  border: solid #98b460;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 860px) {
+  .textContainer h3,
+  .textContainer a {
+    width: 50%;
+  }
+
+  .textContainer h3 {
+    font-size: 20px;
+  }
+
+  .textContainer a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .textContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .textContainer h3,
+  .textContainer a {
+    width: 100%;
+  }
+}
