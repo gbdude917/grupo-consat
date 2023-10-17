@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 
 import ImageCarousel from "@/components/carousel/ImageCarousel";
+import HomeIntro from "@/components/HomeIntro/HomeIntro";
 
 import type { Metadata } from "next";
 
@@ -11,11 +12,13 @@ export const metadata: Metadata = {
 
 const Home = () => {
   return (
-    <div>
+    <>
       <main className={styles.main}>
         <ImageCarousel />
+
+        <HomeIntro />
       </main>
-    </div>
+    </>
   );
 };
 
