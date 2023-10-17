@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
 
 import ImageCarousel from "@/components/carousel/ImageCarousel";
-import HomeIntro from "@/components/HomeIntro/HomeIntro";
+import HomeIntro from "@/components/homeintro/HomeIntro";
 
 import type { Metadata } from "next";
 
