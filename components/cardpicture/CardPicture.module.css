@@ -63,13 +63,16 @@
 }
 
 @media screen and (max-width: 485px) {
+  .container {
+    width: 100%;
+  }
+
   .textContainer {
-    flex-direction: column;
-    justify-content: center;
+    width: 100%;
   }
 
   .textContainer h3,
   .textContainer a {
-    width: 100%;
+    width: 40%;
   }
 }
