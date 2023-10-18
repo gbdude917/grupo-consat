@@ -38,6 +38,10 @@
   font-weight: bold;
 }
 
+.textContainer a:hover {
+  text-decoration: underline #98b460;
+}
+
 .arrow-right {
   border: solid #98b460;
   border-width: 0 3px 3px 0;
