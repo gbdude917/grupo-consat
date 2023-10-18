@@ -5,7 +5,7 @@
 }
 
 /* Slide-right animation */
-.slide-right {
+/* .slide-right {
   animation: 1.5s slide-right;
 }
 
@@ -19,9 +19,9 @@
     margin-right: 0%;
     opacity: 1;
   }
-}
+} */
 
-@media screen and (max-width: 485px) {
+@media screen and (max-width: 610px) {
   .container {
     flex-direction: column;
     justify-content: center;

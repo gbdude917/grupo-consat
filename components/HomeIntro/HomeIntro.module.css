@@ -4,7 +4,7 @@
 }
 
 /* Slide-right animation */
-.slide-right {
+/* .slide-right {
   animation: 1.5s slide-right;
 }
 
@@ -18,11 +18,27 @@
     margin-right: 0%;
     opacity: 1;
   }
+} */
+
+/* Pop-up animation */
+@keyframes createSection {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.show {
+  animation: createSection 1s;
 }
 
 .textContainer {
   width: 70vw;
   padding: 0 100px;
+  animation: createSection 1s;
 }
 
 .textContainer h3 {
@@ -50,6 +66,7 @@
 .imageContainer {
   width: 30vw;
   padding-right: 100px;
+  animation: createSection 1s;
 }
 
 .image {

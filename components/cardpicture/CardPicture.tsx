@@ -1,3 +1,7 @@
+"use client";
+
+import { useInView } from "react-intersection-observer";
+
 import classes from "./CardPicture.module.css";
 
 import Image from "next/image";
@@ -10,9 +14,16 @@ interface ICardPicture {
 }
 
 const CardPicture = (props: ICardPicture) => {
+  const [ref, inView] = useInView({ triggerOnce: true });
+
+  const runAnimation = inView
+    ? `${classes.container} ${classes.show}`
+    : `${classes.container}`;
+
   return (
     <div
-      className={classes.container}
+      ref={ref}
+      className={runAnimation}
       style={
         {
           background: `linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url(${props.imagePath})`,

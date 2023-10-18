@@ -10,6 +10,24 @@
   background-repeat: no-repeat;
 }
 
+.show {
+  animation: createSection 1s;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes createSection {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
 .textContainer {
   display: flex;
   justify-content: space-between;
@@ -20,7 +38,7 @@
 .textContainer h3,
 .textContainer a {
   color: white;
-  width: 35%;
+  width: 50%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -30,6 +48,7 @@
 .textContainer h3 {
   font-size: 30px;
   text-decoration: underline #98b460;
+  text-align: left;
 }
 
 .textContainer a {
@@ -66,9 +85,10 @@
   }
 }
 
-@media screen and (max-width: 485px) {
+@media screen and (max-width: 610px) {
   .container {
     width: 100%;
+    margin: 2.5px 0;
   }
 
   .textContainer {

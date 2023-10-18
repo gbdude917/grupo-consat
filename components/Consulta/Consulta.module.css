@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0;
+}
+
+/* Pop-up animation */
+@keyframes createSection {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.header-hidden {
+  display: none;
+}
+
+.header-shown {
+  width: 100vw;
+  height: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: createSection 1s;
+}
+
+.header-shown h2 {
+  color: #98b460;
+  font-size: 40px;
+}
+
+.header-shown h3 {
+  text-decoration: underline 3px #98b460;
+  text-underline-offset: 6px;
+  font-size: 25px;
+  margin-top: 7px;
+}
