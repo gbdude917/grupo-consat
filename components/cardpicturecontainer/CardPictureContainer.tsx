@@ -1,4 +1,4 @@
-import CardPicture from "../cardpicture/CardPicture";
+import CardPicture from "../CardPicture/CardPicture";
 
 import classes from "./CardPictureContainer.module.css";
 

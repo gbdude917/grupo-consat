@@ -1,5 +1,5 @@
 import classes from "../../app/styles.module.css";
-import BurgerButton from "@/components/nav/BurgerButton";
+import BurgerButton from "@/components/Nav/BurgerButton";
 
 const Nav = (children: any) => {
   return (
