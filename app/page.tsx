@@ -1,8 +1,9 @@
-import CardPictureContainer from "@/components/cardpicturecontainer/CardPictureContainer";
 import styles from "./page.module.css";
 
-import ImageCarousel from "@/components/carousel/ImageCarousel";
-import HomeIntro from "@/components/homeintro/HomeIntro";
+import ImageCarousel from "@/components/Carousel/ImageCarousel";
+import HomeIntro from "@/components/HomeIntro/HomeIntro";
+import CardPictureContainer from "@/components/CardPictureContainer/CardPictureContainer";
+import Consulta from "@/components/Consulta/Consulta";
 
 import type { Metadata } from "next";
 
@@ -20,6 +21,8 @@ const Home = () => {
         <HomeIntro />
 
         <CardPictureContainer />
+
+        <Consulta />
       </main>
     </>
   );
