@@ -7,13 +7,13 @@ import classes from "./CardPicture.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-interface ICardPicture {
+interface CardPictureProps {
   title: string;
   imagePath: string;
   href: string;
 }
 
-const CardPicture = (props: ICardPicture) => {
+const CardPicture = (props: CardPictureProps) => {
   const [ref, inView] = useInView({ triggerOnce: true });
 
   const runAnimation = inView

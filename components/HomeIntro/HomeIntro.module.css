@@ -1,6 +1,7 @@
 .wrapper {
   display: flex;
   padding: 20px 0;
+  height: 40vh;
 }
 
 /* Slide-right animation */
