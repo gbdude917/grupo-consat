@@ -83,11 +83,21 @@
   .image {
     width: 140%;
   }
+
+  .textContainer h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .textContainer a {
+    font-size: 11px;
+  }
 }
 
 @media screen and (max-width: 850px) {
   .wrapper {
     flex-direction: column;
+    height: 700px;
   }
 
   .textContainer {
@@ -96,7 +106,8 @@
   }
 
   .imageContainer {
-    width: 100%;
+    width: auto;
+    height: 90%;
     padding: 10px 75px;
     display: flex;
     flex-direction: column;
@@ -105,7 +116,8 @@
   }
 
   .image {
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 
