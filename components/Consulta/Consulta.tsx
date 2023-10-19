@@ -2,6 +2,8 @@
 
 import { useInView } from "react-intersection-observer";
 
+import ArticleContainer from "../ArticleContainer/ArticleContainer";
+
 import classes from "./Consulta.module.css";
 
 const Consulta = () => {
@@ -18,7 +20,7 @@ const Consulta = () => {
         <h3>Nuestros servicios</h3>
       </div>
 
-      {/* <ArticleContainer /> */}
+      <ArticleContainer />
     </section>
   );
 };
