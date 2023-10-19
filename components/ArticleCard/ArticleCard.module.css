@@ -1,7 +1,7 @@
 .container {
   width: 325px;
   height: 395px;
-  margin: 30px 0;
+  margin: 30px 5px;
 }
 
 /* Pop-up animation */
@@ -34,6 +34,7 @@
 .container h3 {
   margin: 20px 0;
   height: 35px;
+  text-align: center;
 
   display: flex;
   justify-content: center;

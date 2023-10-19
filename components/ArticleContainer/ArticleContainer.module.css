@@ -7,3 +7,15 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    padding: 0px;
+  }
+}
