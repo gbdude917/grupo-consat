@@ -4,7 +4,7 @@ import classes from "./CardPictureContainer.module.css";
 
 const CardPictureContainer = () => {
   return (
-    <div className={`${classes.container} ${classes["slide-right"]}`}>
+    <section className={`${classes.container} ${classes["slide-right"]}`}>
       <CardPicture
         title="Misión"
         imagePath="/images/misiontrimmed.png"
@@ -20,7 +20,7 @@ const CardPictureContainer = () => {
         imagePath="/images/principiostrimmed.jpg"
         href="/"
       />
-    </div>
+    </section>
   );
 };
 

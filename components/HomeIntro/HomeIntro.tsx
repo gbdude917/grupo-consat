@@ -20,7 +20,7 @@ const HomeIntro = () => {
     : `${classes.imageContainer}`;
 
   return (
-    <div className={classes.wrapper}>
+    <section className={classes.wrapper}>
       <div ref={refText} className={textAnimation}>
         <h3>
           Somos una empresa mexicana con sede en Tijuana Baja California,
@@ -66,7 +66,7 @@ const HomeIntro = () => {
         />
         <figcaption>Construcción y Servicios de Asesor​ía Técnica</figcaption>
       </div>
-    </div>
+    </section>
   );
 };
 
