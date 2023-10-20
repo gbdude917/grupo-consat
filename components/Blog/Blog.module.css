@@ -1,0 +1,64 @@
+.wrapper {
+  width: 325px;
+  height: 475px;
+  margin: 30px;
+}
+
+/* Pop-up animation */
+@keyframes createSection {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.show {
+  animation: createSection 1s;
+}
+
+.imageContainer {
+  height: 170px;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  height: 170px;
+}
+
+.date {
+  color: #b3b3bb;
+}
+
+.wrapper h3 {
+  margin: 20px 0;
+  height: 35px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  height: 125px;
+  line-height: 25px;
+  text-overflow: ellipsis;
+}
+
+.link {
+  text-decoration: underline 2px;
+  color: black;
+  text-underline-offset: 7.5px;
+}
+
+.link:hover {
+  color: #98b460;
+}
