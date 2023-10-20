@@ -4,6 +4,7 @@ import ImageCarousel from "@/components/Carousel/ImageCarousel";
 import HomeIntro from "@/components/HomeIntro/HomeIntro";
 import CardPictureContainer from "@/components/CardPictureContainer/CardPictureContainer";
 import Consulta from "@/components/Consulta/Consulta";
+import Summary from "@/components/Summary/Summary";
 
 import type { Metadata } from "next";
 
@@ -14,17 +15,17 @@ export const metadata: Metadata = {
 
 const Home = () => {
   return (
-    <>
-      <main className={styles.main}>
-        <ImageCarousel />
+    <main className={styles.main}>
+      <ImageCarousel />
 
-        <HomeIntro />
+      <HomeIntro />
 
-        <CardPictureContainer />
+      <CardPictureContainer />
 
-        <Consulta />
-      </main>
-    </>
+      <Consulta />
+
+      <Summary />
+    </main>
   );
 };
 

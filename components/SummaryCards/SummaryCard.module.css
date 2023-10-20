@@ -1,0 +1,66 @@
+.wrapper {
+  height: 425px;
+  width: 200px;
+
+  border: solid 2px white;
+  color: white;
+
+  margin: 35px 0;
+}
+
+/* Pop-up animation */
+@keyframes createSection {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.show {
+  animation: createSection 1s;
+}
+
+.imageWrapper {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer {
+  background-color: #3a3839;
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 70%;
+  width: 70%;
+}
+
+.textContainer {
+  text-align: center;
+}
+
+.textContainer h3 {
+  height: 70px;
+  margin: 5px 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainer p {
+  margin: 5px 3px;
+  height: 225px;
+  line-height: 20px;
+}
