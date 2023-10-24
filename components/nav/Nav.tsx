@@ -1,5 +1,6 @@
 import classes from "../../app/styles.module.css";
 import BurgerButton from "@/components/Nav/BurgerButton";
+import Link from "next/link";
 
 const Nav = (children: any) => {
   return (
@@ -7,27 +8,27 @@ const Nav = (children: any) => {
       <div className={classes.container}>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <a href="/">Misión y Visión</a>
+            <Link href="/mision">Misión y Visión</Link>
           </li>
           <li>
-            <a href="/">Consultar Dossier</a>
+            <Link href="/">Consultar Dossier</Link>
           </li>
           <li className={classes.dropdown}>
-            <a className={classes.dropdownButton} href="/">
+            <Link className={classes.dropdownButton} href="/">
               Servicios <div className={classes.downArrow} />
-            </a>
+            </Link>
             <div className={classes["dropdown-content"]}>
-              <a href="/">Geotecnia</a>
-              <a href="/">Protección Civil y Programas Internos</a>
-              <a href="/">Geología</a>
-              <a href="/">Cálculo Estructural</a>
-              <a href="/">Construcción</a>
-              <a href="/">Laboratorio de control de calidad</a>
-              <a href="/">Estudios de Medio Ambiente</a>
-              <a href="/">Fotogrametríax</a>
+              <Link href="/">Geotecnia</Link>
+              <Link href="/">Protección Civil y Programas Internos</Link>
+              <Link href="/">Geología</Link>
+              <Link href="/">Cálculo Estructural</Link>
+              <Link href="/">Construcción</Link>
+              <Link href="/">Laboratorio de control de calidad</Link>
+              <Link href="/">Estudios de Medio Ambiente</Link>
+              <Link href="/">Fotogrametríax</Link>
             </div>
           </li>
           <li>
