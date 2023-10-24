@@ -1,5 +1,3 @@
-import styles from "./page.module.css";
-
 import ImageCarousel from "@/components/Carousel/ImageCarousel";
 import HomeIntro from "@/components/HomeIntro/HomeIntro";
 import CardPictureContainer from "@/components/CardPictureContainer/CardPictureContainer";
@@ -16,7 +14,7 @@ export const metadata: Metadata = {
 
 const Home = () => {
   return (
-    <main className={styles.main}>
+    <main>
       <ImageCarousel />
       <HomeIntro />
       <CardPictureContainer />
