@@ -4,7 +4,6 @@ import { useInView } from "react-intersection-observer";
 
 import classes from "./CardPicture.module.css";
 
-import Image from "next/image";
 import Link from "next/link";
 
 interface CardPictureProps {

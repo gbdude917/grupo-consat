@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  margin: 25px 0;
+}
+
+.icon {
+  color: #98b460;
+  margin-right: 15px;
+  height: 20px;
+  width: 20px;
+}
+
+.textContainer p {
+  white-space: pre-wrap;
+  margin-right: 75px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 925px) {
+  .container {
+    margin: 25px 20px;
+  }
+
+  .textContainer p {
+    margin-right: 0;
+  }
+}
