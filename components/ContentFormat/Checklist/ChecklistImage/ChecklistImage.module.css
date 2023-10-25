@@ -15,6 +15,13 @@
   overflow: hidden;
 }
 
+.containerHidden {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+}
+
 .show {
   animation: createSection 1s;
 }

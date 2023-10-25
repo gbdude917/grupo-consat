@@ -29,9 +29,13 @@ const ChecklistImage = (props: ChecklistImageProps) => {
     ? `${classes.textWrapper} ${classes.show}`
     : `${classes.hidden}`;
 
+  const containerHeight = inView
+    ? `${classes.container}`
+    : `${classes.containerHidden}`;
+
   return (
     <div ref={ref} className={classes.wrapper}>
-      <div className={classes.container}>
+      <div className={containerHeight}>
         <div className={runAnimationImage}>
           <Image
             src={props.image}
