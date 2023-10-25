@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import HeroImage from "@/components/ContentFormat/HeroImage/HeroImage";
-import LeftTextRightImage from "@/components/ContentFormat/LeftTextRightImage/LeftTextRightImage";
+import TextWithImage from "@/components/ContentFormat/TextWithImage/TextWithImage";
 import RightTextLeftImage from "@/components/ContentFormat/RightTextLeftImage/RightTextLeftImage";
 import ChecklistImage from "@/components/ContentFormat/Checklist/ChecklistImage/ChecklistImage";
 
@@ -42,16 +42,18 @@ const Mision = () => {
         subText="Desarrollar proyectos donde al cliente se le genere la confianza de que se buscará la optimización del proyecto en busca de soluciones con un costo-beneficio, llegando a un proyecto sustentable."
       />
 
-      <LeftTextRightImage
+      <TextWithImage
         image="/images/mision.png"
         title="Misión"
-        text="Ofrecer servicios de asesoría experta y soluciones innovadoras, apegados a la normatividad vigente, con el fin de satisfacer las necesidades de nuestros clientes, cumpliendo con las expectativas en cuanto a calidad, tiempo y seguridad. "
+        text="Ofrecer servicios de asesoría experta y soluciones innovadoras, apegados a la normatividad vigente, con el fin de satisfacer las necesidades de nuestros clientes, cumpliendo con las expectativas en cuanto a calidad, tiempo y seguridad."
+        isTextLeft={true}
       />
 
-      <RightTextLeftImage
+      <TextWithImage
         image="/images/Carousel1.jpeg"
         title="Visión"
         text="Consolidarnos como una empresa responsable, vanguardista y multidisciplinaria en el campo de la ingeniería civil, en el ámbito nacional e internacional, reconocida por la calidad de nuestros servicios, por la seriedad y profesionalismo en nuestro trabajo, y sobre todo por dar alternativas de solución acordes a las necesidades de cada proyecto."
+        isTextLeft={false}
       />
 
       <ChecklistImage

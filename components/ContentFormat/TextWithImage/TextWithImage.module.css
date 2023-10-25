@@ -4,7 +4,8 @@
   margin: 2.5vh auto;
 }
 
-.wrapper {
+.wrapperLTRI,
+.wrapperRTLI {
   display: flex;
 
   height: 40vh;
@@ -87,12 +88,17 @@
     height: 500px;
   }
 
-  .wrapper {
+  .wrapperLTRI,
+  .wrapperRTLI {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     height: 100%;
     width: 95vw;
+  }
+
+  .wrapperRTLI {
+    flex-direction: column;
   }
 
   .textContainer,
