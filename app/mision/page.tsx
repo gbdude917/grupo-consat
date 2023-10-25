@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 
 import HeroImage from "@/components/ContentFormat/HeroImage/HeroImage";
 import TextWithImage from "@/components/ContentFormat/TextWithImage/TextWithImage";
-import RightTextLeftImage from "@/components/ContentFormat/RightTextLeftImage/RightTextLeftImage";
 import ChecklistImage from "@/components/ContentFormat/Checklist/ChecklistImage/ChecklistImage";
 
 export const metadata: Metadata = {
