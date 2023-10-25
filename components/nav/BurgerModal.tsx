@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import Link from "next/link";
+
 import classes from "./BurgerModal.module.css";
 
 const BurgerModal = (children: any) => {
@@ -35,30 +37,54 @@ const BurgerModal = (children: any) => {
       <div className={classes.linkContainer}>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link href="/" onClick={children.handleBurgerClick}>
+              Home
+            </Link>
           </li>
           <li>
-            <a href="/">Misión y Visión</a>
+            <Link href="/mision" onClick={children.handleBurgerClick}>
+              Misión y Visión
+            </Link>
           </li>
           <li>
-            <a href="/">Consultar Dossier</a>
+            <Link href="/" onClick={children.handleBurgerClick}>
+              Consultar Dossier
+            </Link>
           </li>
           <li>
-            <a href="/">Servicios </a>
+            <Link href="/" onClick={children.handleBurgerClick}>
+              Servicios{" "}
+            </Link>
             <button
               className={classes.downArrow}
               onClick={handleServiciosClick}
             />
 
             <div className={isServiciosOpen}>
-              <a href="/">Geotecnia</a>
-              <a href="/">Protección Civil y Programas Internos</a>
-              <a href="/">Geología</a>
-              <a href="/">Cálculo Estructural</a>
-              <a href="/">Construcción</a>
-              <a href="/">Laboratorio de control de calidad</a>
-              <a href="/">Estudios de Medio Ambiente</a>
-              <a href="/">Fotogrametríax</a>
+              <Link href="/" onClick={children.handleBurgerClick}>
+                Geotecnia
+              </Link>
+              <Link href="/" onClick={children.handleBurgerClick}>
+                Protección Civil y Programas Internos
+              </Link>
+              <Link href="/" onClick={children.handleBurgerClick}>
+                Geología
+              </Link>
+              <Link href="/" onClick={children.handleBurgerClick}>
+                Cálculo Estructural
+              </Link>
+              <Link href="/" onClick={children.handleBurgerClick}>
+                Construcción
+              </Link>
+              <Link href="/" onClick={children.handleBurgerClick}>
+                Laboratorio de control de calidad
+              </Link>
+              <Link href="/" onClick={children.handleBurgerClick}>
+                Estudios de Medio Ambiente
+              </Link>
+              <Link href="/" onClick={children.handleBurgerClick}>
+                Fotogrametríax
+              </Link>
             </div>
           </li>
           <li>
@@ -71,11 +97,21 @@ const BurgerModal = (children: any) => {
               onClick={handleContactanosClick}
             />
             <div className={isContactanosOpen}>
-              <a href="/">Oficina (664) 681 9704</a>
-              <a href="/">MX +52 (664) 780 7004</a>
-              <a href="/">USA +001 (619) 598 3879</a>
-              <a href="/">dbjconsat@hotmail.com</a>
-              <a href="/">administracion@hotmail.com</a>
+              <a href="/" onClick={children.handleBurgerClick}>
+                Oficina (664) 681 9704
+              </a>
+              <a href="/" onClick={children.handleBurgerClick}>
+                MX +52 (664) 780 7004
+              </a>
+              <a href="/" onClick={children.handleBurgerClick}>
+                USA +001 (619) 598 3879
+              </a>
+              <a href="/" onClick={children.handleBurgerClick}>
+                dbjconsat@hotmail.com
+              </a>
+              <a href="/" onClick={children.handleBurgerClick}>
+                administracion@hotmail.com
+              </a>
             </div>
           </li>
           <li>
