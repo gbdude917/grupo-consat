@@ -10,7 +10,7 @@ interface HeroImageProps {
 
 const HeroImage = (props: HeroImageProps) => {
   return (
-    <div className={classes.hero}>
+    <section className={classes.hero}>
       <div className={classes.overlay}>
         <Image
           src={props.image}
@@ -28,7 +28,7 @@ const HeroImage = (props: HeroImageProps) => {
           <p>{props.subText}</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

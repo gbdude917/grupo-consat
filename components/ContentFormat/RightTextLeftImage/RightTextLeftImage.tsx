@@ -19,7 +19,7 @@ const RightTextLeftImage = (props: LeftTextRightImageProps) => {
     : `${classes.hide}`;
 
   return (
-    <div ref={ref} className={classes.container}>
+    <section ref={ref} className={classes.container}>
       <div className={runAnimation}>
         <div className={classes.imageWrapper}>
           <Image
@@ -39,7 +39,7 @@ const RightTextLeftImage = (props: LeftTextRightImageProps) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

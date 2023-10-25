@@ -34,7 +34,7 @@ const ChecklistImage = (props: ChecklistImageProps) => {
     : `${classes.containerHidden}`;
 
   return (
-    <div ref={ref} className={classes.wrapper}>
+    <section ref={ref} className={classes.wrapper}>
       <div className={containerHeight}>
         <div className={runAnimationImage}>
           <Image
@@ -62,7 +62,7 @@ const ChecklistImage = (props: ChecklistImageProps) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
