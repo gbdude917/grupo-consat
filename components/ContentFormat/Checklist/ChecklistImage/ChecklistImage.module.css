@@ -75,6 +75,11 @@
 }
 
 @media screen and (max-width: 925px) {
+  .textContainer h2 {
+    text-align: center;
+    font-size: 60px;
+  }
+
   .imageWrapper {
     display: none;
   }
