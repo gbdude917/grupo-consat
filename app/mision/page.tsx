@@ -39,7 +39,7 @@ const Mision = () => {
       <HeroImage
         image="/images/mision_hero.jpeg"
         pageName="Es nuestra prioridad en Grupo CONSAT"
-        subText="Desarrollar proyectos donde al cliente se le genere la confianza de que se buscará la optimización del proyecto en busca de soluciones con un costo-beneficio, llegando a un proyecto sustentable. "
+        subText="Desarrollar proyectos donde al cliente se le genere la confianza de que se buscará la optimización del proyecto en busca de soluciones con un costo-beneficio, llegando a un proyecto sustentable."
       />
 
       <LeftTextRightImage
