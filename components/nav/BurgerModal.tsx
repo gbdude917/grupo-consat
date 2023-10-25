@@ -61,7 +61,7 @@ const BurgerModal = (children: any) => {
             />
 
             <div className={isServiciosOpen}>
-              <Link href="/" onClick={children.handleBurgerClick}>
+              <Link href="/geotecnia" onClick={children.handleBurgerClick}>
                 Geotecnia
               </Link>
               <Link href="/" onClick={children.handleBurgerClick}>

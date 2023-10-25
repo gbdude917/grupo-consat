@@ -31,7 +31,7 @@ const Footer = () => {
             <h3>Nuestros Servicios</h3>
             <ul>
               <li>
-                <Link href="/">Geotecnia</Link>
+                <Link href="/geotecnia">Geotecnia</Link>
               </li>
               <li>
                 <Link href="/">Cálculo estructural</Link>

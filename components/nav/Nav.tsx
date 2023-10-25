@@ -21,7 +21,7 @@ const Nav = (children: any) => {
               Servicios <div className={classes.downArrow} />
             </Link>
             <div className={classes["dropdown-content"]}>
-              <Link href="/">Geotecnia</Link>
+              <Link href="/geotecnia">Geotecnia</Link>
               <Link href="/">Protección Civil y Programas Internos</Link>
               <Link href="/">Geología</Link>
               <Link href="/">Cálculo Estructural</Link>
