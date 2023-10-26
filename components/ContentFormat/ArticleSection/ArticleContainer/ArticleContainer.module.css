@@ -6,6 +6,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  z-index: 2; /* Ensure that homepage crane image doesn't block bottom part of ArticleContainer */
 }
 
 @media screen and (max-width: 1200px) {

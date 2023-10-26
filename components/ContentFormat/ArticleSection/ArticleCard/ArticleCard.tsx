@@ -10,6 +10,7 @@ interface ArticleCardProps {
   description: string;
   link: string;
   image: string;
+  hasLink: boolean;
 }
 
 const ArticleCard = (props: ArticleCardProps) => {
@@ -18,6 +19,8 @@ const ArticleCard = (props: ArticleCardProps) => {
   const runAnimation = inView
     ? `${classes.container} ${classes.show}`
     : `${classes.container}`;
+
+  const displayLink = props.hasLink ? `${classes.link}` : `${classes.hide}`;
 
   return (
     <div ref={ref} className={runAnimation}>
@@ -33,7 +36,7 @@ const ArticleCard = (props: ArticleCardProps) => {
 
       <h3>{props.title}</h3>
       <div className={classes.description}>{props.description}</div>
-      <Link className={classes.link} href={props.link}>
+      <Link className={displayLink} href={props.link}>
         LEER MÁS
       </Link>
     </div>
