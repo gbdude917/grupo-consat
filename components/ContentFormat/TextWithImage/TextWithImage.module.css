@@ -29,6 +29,7 @@
   animation: createSection 1s;
 }
 
+/* Animation */
 @keyframes createSection {
   from {
     transform: scale(0);

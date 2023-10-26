@@ -31,7 +31,7 @@ const LeftTextRightImage = (props: LeftTextRightImageProps) => {
     ? `${formatStyle} ${classes.show}`
     : `${classes.hide}`;
 
-  // Formatting
+  // Formatting for text and image
   const format = props.isTextLeft ? (
     <>
       <div className={`${classes.textContainer} ${sizing} ${backgroundColor}`}>
