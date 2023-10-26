@@ -8,7 +8,7 @@ const homeArticles = [
     title: "Geotecnia",
     description:
       "Es el estudio de las propiedades mecánicas de los materiales empleados para la prevención de accidentes y desastres naturales.",
-    link: "/",
+    link: "/geotecnia",
     image: "/images/Geotecnia.jpeg",
   },
   {
