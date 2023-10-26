@@ -10,18 +10,38 @@ interface LeftTextRightImageProps {
   title: string;
   text: string;
   isTextLeft: boolean;
+  is500px: boolean;
+  isWhiteBackground: boolean;
 }
 
 const LeftTextRightImage = (props: LeftTextRightImageProps) => {
   const [ref, inView] = useInView({ triggerOnce: true });
 
-  //
+  const sizing = props.is500px ? `${classes.is500px}` : `${classes.is40vh}`;
+  const backgroundColor = props.isWhiteBackground
+    ? `${classes.whiteBackground}`
+    : `${classes.greyBackground}`;
+
+  const lineColor = props.isWhiteBackground
+    ? `${classes.lineBlack}`
+    : `${classes.lineWhite}`;
+
+  // Determine if format of text and image is left or right
+  const formatStyle = props.isTextLeft
+    ? `${classes.wrapperLTRI} ${sizing}`
+    : `${classes.wrapperRTLI} ${sizing}`;
+
+  const runAnimation = inView
+    ? `${formatStyle} ${classes.show}`
+    : `${classes.hide}`;
+
+  // Formatting
   const format = props.isTextLeft ? (
     <>
-      <div className={classes.textContainer}>
+      <div className={`${classes.textContainer} ${sizing} ${backgroundColor}`}>
         <div className={classes.textWrapper}>
           <h2>{props.title}</h2>
-          <div className={classes.line} />
+          <div className={lineColor} />
           <p>{props.text}</p>
         </div>
       </div>
@@ -48,27 +68,18 @@ const LeftTextRightImage = (props: LeftTextRightImageProps) => {
         />
       </div>
 
-      <div className={classes.textContainer}>
+      <div className={`${classes.textContainer} ${sizing} ${backgroundColor}`}>
         <div className={classes.textWrapper}>
           <h2>{props.title}</h2>
-          <div className={classes.line} />
+          <div className={lineColor} />
           <p>{props.text}</p>
         </div>
       </div>
     </>
   );
 
-  // Determine if format of text and image is left or right
-  const formatStyle = props.isTextLeft
-    ? `${classes.wrapperLTRI}`
-    : `${classes.wrapperRTLI}`;
-
-  const runAnimation = inView
-    ? `${formatStyle} ${classes.show}`
-    : `${classes.hide}`;
-
   return (
-    <section ref={ref} className={classes.container}>
+    <section ref={ref} className={`${classes.container} ${sizing}`}>
       <div className={runAnimation}>{format}</div>
     </section>
   );

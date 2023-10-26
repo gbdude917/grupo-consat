@@ -1,14 +1,22 @@
 .container {
-  height: 40vh;
+  /* height: 500px; */
   width: 100vw;
   margin: 2.5vh auto;
+}
+
+.is500px {
+  height: 500px;
+}
+
+.is40vh {
+  height: 40vh;
 }
 
 .wrapperLTRI,
 .wrapperRTLI {
   display: flex;
 
-  height: 40vh;
+  /* height: 500px; */
   width: 95vw;
   margin: 0 auto;
 }
@@ -31,21 +39,35 @@
   }
 }
 
-.line {
+.lineWhite {
   border-bottom: 7px white solid;
   width: 100px;
   margin: 15px auto;
 }
 
+.lineBlack {
+  border-bottom: 7px black solid;
+  width: 100px;
+  margin: 15px auto;
+}
+
 .textContainer {
-  color: white;
-  background-color: #4d4d4d;
   height: 100%;
   width: 50%;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.whiteBackground {
+  color: black;
+  background-color: white;
+}
+
+.greyBackground {
+  color: white;
+  background-color: #4d4d4d;
 }
 
 .textWrapper {
@@ -57,8 +79,9 @@
 }
 
 .textWrapper h2 {
-  font-size: 3rem;
-  margin: 10px 0;
+  font-size: 2rem;
+  margin: 5px 0;
+  text-align: center;
 }
 
 .textWrapper p {
@@ -81,13 +104,18 @@
   .textWrapper p {
     line-height: 20px;
   }
+
+  .is500px,
+  .is40vh {
+    height: auto;
+  }
+
+  .image {
+    object-fit: cover;
+  }
 }
 
 @media screen and (max-width: 680px) {
-  .container {
-    height: 500px;
-  }
-
   .wrapperLTRI,
   .wrapperRTLI {
     display: flex;
