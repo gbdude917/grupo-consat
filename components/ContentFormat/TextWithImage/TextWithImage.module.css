@@ -39,14 +39,8 @@
   }
 }
 
-.lineWhite {
-  border-bottom: 7px white solid;
-  width: 100px;
-  margin: 15px auto;
-}
-
-.lineBlack {
-  border-bottom: 7px black solid;
+.line {
+  border-bottom: 7px #98b460 solid;
   width: 100px;
   margin: 15px auto;
 }

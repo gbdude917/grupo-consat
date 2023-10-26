@@ -22,10 +22,6 @@ const LeftTextRightImage = (props: LeftTextRightImageProps) => {
     ? `${classes.whiteBackground}`
     : `${classes.greyBackground}`;
 
-  const lineColor = props.isWhiteBackground
-    ? `${classes.lineBlack}`
-    : `${classes.lineWhite}`;
-
   // Determine if format of text and image is left or right
   const formatStyle = props.isTextLeft
     ? `${classes.wrapperLTRI} ${sizing}`
@@ -41,7 +37,7 @@ const LeftTextRightImage = (props: LeftTextRightImageProps) => {
       <div className={`${classes.textContainer} ${sizing} ${backgroundColor}`}>
         <div className={classes.textWrapper}>
           <h2>{props.title}</h2>
-          <div className={lineColor} />
+          <div className={classes.line} />
           <p>{props.text}</p>
         </div>
       </div>
@@ -71,7 +67,7 @@ const LeftTextRightImage = (props: LeftTextRightImageProps) => {
       <div className={`${classes.textContainer} ${sizing} ${backgroundColor}`}>
         <div className={classes.textWrapper}>
           <h2>{props.title}</h2>
-          <div className={lineColor} />
+          <div className={classes.line} />
           <p>{props.text}</p>
         </div>
       </div>
