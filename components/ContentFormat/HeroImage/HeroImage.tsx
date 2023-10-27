@@ -16,8 +16,10 @@ const HeroImage = (props: HeroImageProps) => {
           src={props.image}
           alt={props.pageName}
           className={classes["hero-image"]}
-          layout="fill"
-          objectFit="cover"
+          // layout="fill"
+          width={1920}
+          height={1000}
+          // objectFit="cover"
         />
       </div>
 
