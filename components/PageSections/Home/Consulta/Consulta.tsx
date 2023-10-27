@@ -2,7 +2,7 @@
 
 import { useInView } from "react-intersection-observer";
 
-import ArticleContainer from "../ContentFormat/ArticleSection/ArticleContainer/ArticleContainer";
+import ArticleContainer from "../../../ContentFormat/ArticleSection/ArticleContainer/ArticleContainer";
 
 import classes from "./Consulta.module.css";
 

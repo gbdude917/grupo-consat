@@ -1,11 +1,11 @@
 "use client"; // ensure that the burger button handler works
 
-import BurgerModal from "@/components/Nav/BurgerModal";
+import BurgerModal from "@/components/PageSections/NavAndFooter/Nav/BurgerModal";
 import "./globals.css";
 import classes from "./styles.module.css";
 import { useState, useEffect } from "react";
-import Nav from "@/components/Nav/Nav";
-import Footer from "@/components/Footer/Footer";
+import Nav from "@/components/PageSections/NavAndFooter/Nav/Nav";
+import Footer from "@/components/PageSections/NavAndFooter/Footer/Footer";
 
 function RootLayout({ children }: { children: React.ReactNode }) {
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);

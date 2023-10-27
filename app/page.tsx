@@ -1,9 +1,9 @@
-import ImageCarousel from "@/components/Carousel/ImageCarousel";
-import HomeIntro from "@/components/HomeIntro/HomeIntro";
-import CardPictureContainer from "@/components/CardPictureContainer/CardPictureContainer";
-import Consulta from "@/components/Consulta/Consulta";
-import Summary from "@/components/Summary/Summary";
-import Blogs from "@/components/Blogs/Blogs";
+import ImageCarousel from "@/components/ContentFormat/Carousel/ImageCarousel";
+import HomeIntro from "@/components/PageSections/Home/HomeIntro/HomeIntro";
+import CardPictureContainer from "@/components/ContentFormat/CardPictureSections/CardPictureContainer/CardPictureContainer";
+import Consulta from "@/components/PageSections/Home/Consulta/Consulta";
+import Summary from "@/components/ContentFormat/SummarySections/Summary/Summary";
+import Blogs from "@/components/ContentFormat/BlogSections/Blogs/Blogs";
 
 import type { Metadata } from "next";
 

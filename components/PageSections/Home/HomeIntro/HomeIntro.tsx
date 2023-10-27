@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import classes from "./HomeIntro.module.css";
 
-import logoPic from "../../public/images/Logo.png";
+import logoPic from "../../../../public/images/Logo.png";
 import { useInView } from "react-intersection-observer";
 
 const HomeIntro = () => {

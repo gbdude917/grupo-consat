@@ -1,5 +1,5 @@
-import classes from "../../app/styles.module.css";
-import BurgerButton from "@/components/Nav/BurgerButton";
+import classes from "../../../../app/styles.module.css";
+import BurgerButton from "@/components/PageSections/NavAndFooter/Nav/BurgerButton";
 import Link from "next/link";
 
 const Nav = (children: any) => {

@@ -1,4 +1,4 @@
-import ArticleContainer from "../ContentFormat/ArticleSection/ArticleContainer/ArticleContainer";
+import ArticleContainer from "../../../ContentFormat/ArticleSection/ArticleContainer/ArticleContainer";
 
 import classes from "./GeotecniaTests.module.css";
 

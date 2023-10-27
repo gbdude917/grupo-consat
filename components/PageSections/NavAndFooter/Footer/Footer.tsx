@@ -3,9 +3,9 @@ import Link from "next/link";
 
 import classes from "./Footer.module.css";
 
-import logoPic from "../../public/images/Logo.png";
-import phone from "../../public/images/phone.png";
-import mail from "../../public/images/mail.png";
+import logoPic from "../../../../public/images/Logo.png";
+import phone from "../../../../public/images/phone.png";
+import mail from "../../../../public/images/mail.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
