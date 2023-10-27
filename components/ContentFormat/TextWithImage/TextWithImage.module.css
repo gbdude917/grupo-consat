@@ -1,15 +1,8 @@
 .container {
-  /* height: 500px; */
+  height: auto;
   width: 100vw;
   margin: 2.5vh auto;
-}
-
-.is500px {
-  height: 500px;
-}
-
-.is40vh {
-  height: 40vh;
+  display: flex;
 }
 
 .wrapperLTRI,
@@ -84,6 +77,7 @@
   margin-top: 10px;
   text-align: center;
   line-height: 30px;
+  white-space: pre-line;
 }
 
 .imageWrapper {
@@ -100,7 +94,7 @@
     line-height: 20px;
   }
 
-  .is500px,
+  .is700px,
   .is40vh {
     height: auto;
   }
@@ -126,6 +120,7 @@
 
   .textContainer,
   .imageWrapper {
+    text-overflow: ellipsis;
     width: 95%;
   }
 }

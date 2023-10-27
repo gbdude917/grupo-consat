@@ -10,22 +10,20 @@ interface LeftTextRightImageProps {
   title: string;
   text: string;
   isTextLeft: boolean;
-  is500px: boolean;
   isWhiteBackground: boolean;
 }
 
-const LeftTextRightImage = (props: LeftTextRightImageProps) => {
+const TextWithImage = (props: LeftTextRightImageProps) => {
   const [ref, inView] = useInView({ triggerOnce: true });
 
-  const sizing = props.is500px ? `${classes.is500px}` : `${classes.is40vh}`;
   const backgroundColor = props.isWhiteBackground
     ? `${classes.whiteBackground}`
     : `${classes.greyBackground}`;
 
   // Determine if format of text and image is left or right
   const formatStyle = props.isTextLeft
-    ? `${classes.wrapperLTRI} ${sizing}`
-    : `${classes.wrapperRTLI} ${sizing}`;
+    ? `${classes.wrapperLTRI}`
+    : `${classes.wrapperRTLI}`;
 
   const runAnimation = inView
     ? `${formatStyle} ${classes.show}`
@@ -34,7 +32,7 @@ const LeftTextRightImage = (props: LeftTextRightImageProps) => {
   // Formatting for text and image
   const format = props.isTextLeft ? (
     <>
-      <div className={`${classes.textContainer} ${sizing} ${backgroundColor}`}>
+      <div className={`${classes.textContainer} ${backgroundColor}`}>
         <div className={classes.textWrapper}>
           <h2>{props.title}</h2>
           <div className={classes.line} />
@@ -64,7 +62,7 @@ const LeftTextRightImage = (props: LeftTextRightImageProps) => {
         />
       </div>
 
-      <div className={`${classes.textContainer} ${sizing} ${backgroundColor}`}>
+      <div className={`${classes.textContainer} ${backgroundColor}`}>
         <div className={classes.textWrapper}>
           <h2>{props.title}</h2>
           <div className={classes.line} />
@@ -75,10 +73,10 @@ const LeftTextRightImage = (props: LeftTextRightImageProps) => {
   );
 
   return (
-    <section ref={ref} className={`${classes.container} ${sizing}`}>
+    <section ref={ref} className={`${classes.container}`}>
       <div className={runAnimation}>{format}</div>
     </section>
   );
 };
 
-export default LeftTextRightImage;
+export default TextWithImage;
