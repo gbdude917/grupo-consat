@@ -11,6 +11,7 @@ interface ArticleCardProps {
   link: string;
   image: string;
   hasLink: boolean;
+  enlarge?: boolean;
 }
 
 const ArticleCard = (props: ArticleCardProps) => {
@@ -18,12 +19,14 @@ const ArticleCard = (props: ArticleCardProps) => {
 
   const runAnimation = inView
     ? `${classes.container} ${classes.show}`
-    : `${classes.container}`;
+    : `${classes.hidden}`;
 
-  const displayLink = props.hasLink ? `${classes.link}` : `${classes.hide}`;
+  const displayLink = props.hasLink ? `${classes.link}` : `${classes.hideLink}`;
+
+  const enlarge = props.enlarge ? `${classes.enlarge}` : "";
 
   return (
-    <div ref={ref} className={runAnimation}>
+    <div ref={ref} className={`${runAnimation} ${enlarge}`}>
       <div className={classes.imageContainer}>
         <Image
           src={props.image}

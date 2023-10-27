@@ -9,6 +9,16 @@
   z-index: 2; /* Ensure that homepage crane image doesn't block bottom part of ArticleContainer */
 }
 
+.isWhite {
+  color: black;
+  background-color: white;
+}
+
+.isGrey {
+  color: white;
+  background-color: #4d4d4d;
+}
+
 @media screen and (max-width: 1200px) {
   .container {
     padding: 0 25px;

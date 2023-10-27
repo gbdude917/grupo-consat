@@ -44,6 +44,7 @@
 .image {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .textWrapper {
@@ -56,13 +57,20 @@
 
 .textContainer h2 {
   text-align: center;
-  font-size: 70px;
+  font-size: 50px;
+  padding: 0 10px;
 }
 
 .line {
-  border-bottom: 5px black solid;
-  width: 200px;
+  border-bottom: 7px #98b460 solid;
+  width: 100px;
   margin: 20px auto;
+}
+
+.textContainer p {
+  padding: 20px 20px 20px 0;
+  width: 100%;
+  line-height: 30px;
 }
 
 .checklist {
@@ -75,6 +83,7 @@
   .imageWrapper {
     padding: 75px 5px;
   }
+
   .image {
     max-height: 100%;
     max-width: 100%;
@@ -84,7 +93,7 @@
 @media screen and (max-width: 925px) {
   .textContainer h2 {
     text-align: center;
-    font-size: 60px;
+    font-size: 45px;
   }
 
   .imageWrapper {
@@ -98,5 +107,12 @@
   .textContainer {
     width: 100%;
     margin: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .textContainer h2 {
+    text-align: center;
+    font-size: 25px;
   }
 }

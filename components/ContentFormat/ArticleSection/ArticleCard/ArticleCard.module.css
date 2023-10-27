@@ -4,6 +4,10 @@
   margin: 30px 5px;
 }
 
+.enlarge {
+  height: 450px;
+}
+
 /* Pop-up animation */
 @keyframes createSection {
   from {
@@ -19,7 +23,12 @@
   animation: createSection 1s;
 }
 
-.hide {
+.hidden {
+  height: 0px;
+  overflow: hidden;
+}
+
+.hideLink {
   display: none;
 }
 

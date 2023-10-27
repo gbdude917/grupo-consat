@@ -3,11 +3,41 @@ import type { Metadata } from "next";
 import HeroImage from "@/components/ContentFormat/HeroImage/HeroImage";
 import WorkerSection from "@/components/ContentFormat/WorkerSection/WorkerSection";
 import TextWithImage from "@/components/ContentFormat/TextWithImage/TextWithImage";
+import GeotecniaTests from "@/components/GeotecniaTests/GeotecniaTests";
+import ChecklistImage from "@/components/ContentFormat/Checklist/ChecklistImage/ChecklistImage";
 
 export const metadata: Metadata = {
   title: "Geotecnia",
   description: "...",
 };
+
+const checklistContents = [
+  {
+    id: 1,
+    heading: "Análisis de estabilidad de taludes",
+    text: "",
+  },
+  {
+    id: 2,
+    heading: "Diseño de cimentaciones profundas y/o especializadas",
+    text: "",
+  },
+  {
+    id: 3,
+    heading: "Análisis y diseño de excavaciones",
+    text: "",
+  },
+  {
+    id: 4,
+    heading: "Diseño de sistemas de contención",
+    text: "",
+  },
+  {
+    id: 5,
+    heading: "Diseño de pavimentos",
+    text: "",
+  },
+];
 
 const Geotecnia = () => {
   return (
@@ -61,6 +91,24 @@ const Geotecnia = () => {
         isTextLeft={false}
         is500px={false}
         isWhiteBackground={true}
+      />
+
+      <GeotecniaTests />
+
+      <TextWithImage
+        image="/images/Geotecnia5.jpg"
+        title="PRUEBA DE PLACA"
+        text="Ensayo geotécnico que se realiza in situ, con el fin de determinar las propiedades de deformabilidad y resistencia al esfuerzo cortante, buscan evaluar la relación entre una presión aplicada por una placa de acero y su penetración en el suelo. "
+        isTextLeft={true}
+        is500px={false}
+        isWhiteBackground={true}
+      />
+
+      <ChecklistImage
+        image="/images/Geotecnia9.jpg"
+        checklistContents={checklistContents}
+        title="ANÁLISIS Y DISEÑO DE DIVERSAS ESTRUCTURAS"
+        subtext="En Grupo Consat no solo contamos con personal apto para realización de estudios geotécnicos sino que también podemos apoyarle con el análisis y diseño de diversas estructuras, como lo son:  "
       />
     </main>
   );
