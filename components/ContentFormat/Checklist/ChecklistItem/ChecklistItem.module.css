@@ -23,6 +23,6 @@
 
   .textContainer p {
     margin-right: 0;
-    padding: 20px 20px 20px 0 !important;
+    padding: 20px 20px 20px 0 !important; /* Ensure that text is left aligned properly */
   }
 }
