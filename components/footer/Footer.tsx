@@ -92,7 +92,7 @@ const Footer = () => {
               <Image src={mail} alt="mail" className={classes.icons} />
               <span>dbjconsat@hotmail.com</span>
             </div>
-            <div className={classes.adress}>
+            <div className={classes.address}>
               <h4>Nos encontramos en:</h4>
               <div className={classes.link}>
                 <Link href="https://maps.app.goo.gl/atKQgdoXxB6ZXERG7">
