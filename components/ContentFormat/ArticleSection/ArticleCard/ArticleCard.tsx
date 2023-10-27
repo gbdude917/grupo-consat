@@ -12,6 +12,7 @@ interface ArticleCardProps {
   image: string;
   hasLink: boolean;
   enlarge?: boolean;
+  key: number;
 }
 
 const ArticleCard = (props: ArticleCardProps) => {
@@ -26,7 +27,7 @@ const ArticleCard = (props: ArticleCardProps) => {
   const enlarge = props.enlarge ? `${classes.enlarge}` : "";
 
   return (
-    <div ref={ref} className={`${runAnimation} ${enlarge}`}>
+    <div key={props.key} ref={ref} className={`${runAnimation} ${enlarge}`}>
       <div className={classes.imageContainer}>
         <Image
           src={props.image}
