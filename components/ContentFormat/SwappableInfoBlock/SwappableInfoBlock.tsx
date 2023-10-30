@@ -7,16 +7,6 @@ import ContentSectionImageDoubleText from "./ValidSections/ContentSectionImageDo
 import ContentSectionImageText from "./ValidSections/ContentSectionImageText/ContentSectionImageText";
 import ContentSectionImageTextThreeCol from "./ValidSections/ContentSectionImageTextThreeCol/ContentSectionImageTextThreeCol";
 
-interface TitleObject {
-  id: number;
-  title: string;
-}
-
-interface SwappableInfoBlockProps {
-  titles: [TitleObject, TitleObject, TitleObject];
-  components: React.ReactElement[];
-}
-
 const SwappableInfoBlock = () => {
   const [visibleDivId, setVisibleDivId] = useState(1);
   const handleClick = (e: any) => {
