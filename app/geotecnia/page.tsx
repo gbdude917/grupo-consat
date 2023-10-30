@@ -4,41 +4,12 @@ import HeroImage from "@/components/ContentFormat/HeroImage/HeroImage";
 import WorkerSection from "@/components/ContentFormat/WorkerSection/WorkerSection";
 import TextWithImage from "@/components/ContentFormat/TextWithImage/TextWithImage";
 import GeotecniaTests from "@/components/PageSections/Geotecnia/GeotecniaTestsSection/GeotecniaTests";
-import ChecklistImage from "@/components/ContentFormat/Checklist/ChecklistImage/ChecklistImage";
 import GeotecniaAnalysis from "@/components/PageSections/Geotecnia/GeotecniaAnalysisSection/GeotecniaAnalysis";
 
 export const metadata: Metadata = {
   title: "Geotecnia",
   description: "...",
 };
-
-const checklistContents = [
-  {
-    id: 1,
-    heading: "Análisis de estabilidad de taludes",
-    text: "",
-  },
-  {
-    id: 2,
-    heading: "Diseño de cimentaciones profundas y/o especializadas",
-    text: "",
-  },
-  {
-    id: 3,
-    heading: "Análisis y diseño de excavaciones",
-    text: "",
-  },
-  {
-    id: 4,
-    heading: "Diseño de sistemas de contención",
-    text: "",
-  },
-  {
-    id: 5,
-    heading: "Diseño de pavimentos",
-    text: "",
-  },
-];
 
 const Geotecnia = () => {
   return (
