@@ -14,8 +14,6 @@ const SwappableInfoBlock = () => {
 
     // Change div id to display
     handleVisibleDiv(id);
-
-    // Change button color
   };
 
   const handleVisibleDiv = (id: number) => setVisibleDivId(id);
