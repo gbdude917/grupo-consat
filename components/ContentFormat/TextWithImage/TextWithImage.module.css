@@ -1,7 +1,7 @@
 .container {
   height: auto;
   width: 100vw;
-  margin: 2.5vh auto;
+  margin: 100px auto;
   display: flex;
 }
 
