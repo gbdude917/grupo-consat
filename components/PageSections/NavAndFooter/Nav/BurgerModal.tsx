@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import classes from "./BurgerModal.module.css";
 
-const BurgerModal = (children: any) => {
+const BurgerModal = (props: any) => {
   const [serviciosOpen, setServiciosOpen] = useState(false);
   const [contactanosOpen, setContactanosOpen] = useState(false);
 
@@ -29,31 +29,31 @@ const BurgerModal = (children: any) => {
     : `${classes["burger-dropdown-content"]} ${classes.dropdownHide}`;
 
   return (
-    <div className={children.modalIsOpen}>
+    <div className={props.modalIsOpen}>
       <div className={classes.closeButtonContainer}>
-        <button onClick={children.handleBurgerClick}>X</button>
+        <button onClick={props.handleBurgerClick}>X</button>
       </div>
 
       <div className={classes.linkContainer}>
         <ul>
           <li>
-            <Link href="/" onClick={children.handleBurgerClick}>
+            <Link href="/" onClick={props.handleBurgerClick}>
               Home
             </Link>
           </li>
           <li>
-            <Link href="/mision" onClick={children.handleBurgerClick}>
+            <Link href="/mision" onClick={props.handleBurgerClick}>
               Misión y Visión
             </Link>
           </li>
           <li>
-            <Link href="/" onClick={children.handleBurgerClick}>
+            <Link href="/" onClick={props.handleBurgerClick}>
               Consultar Dossier
             </Link>
           </li>
           <li>
-            <Link href="/" onClick={children.handleBurgerClick}>
-              Servicios{" "}
+            <Link href="/" onClick={props.handleBurgerClick}>
+              Servicios
             </Link>
             <button
               className={classes.downArrow}
@@ -61,28 +61,28 @@ const BurgerModal = (children: any) => {
             />
 
             <div className={isServiciosOpen}>
-              <Link href="/geotecnia" onClick={children.handleBurgerClick}>
+              <Link href="/geotecnia" onClick={props.handleBurgerClick}>
                 Geotecnia
               </Link>
-              <Link href="/" onClick={children.handleBurgerClick}>
+              <Link href="/proteccion" onClick={props.handleBurgerClick}>
                 Protección Civil y Programas Internos
               </Link>
-              <Link href="/" onClick={children.handleBurgerClick}>
+              <Link href="/" onClick={props.handleBurgerClick}>
                 Geología
               </Link>
-              <Link href="/" onClick={children.handleBurgerClick}>
+              <Link href="/" onClick={props.handleBurgerClick}>
                 Cálculo Estructural
               </Link>
-              <Link href="/" onClick={children.handleBurgerClick}>
+              <Link href="/" onClick={props.handleBurgerClick}>
                 Construcción
               </Link>
-              <Link href="/" onClick={children.handleBurgerClick}>
+              <Link href="/" onClick={props.handleBurgerClick}>
                 Laboratorio de control de calidad
               </Link>
-              <Link href="/" onClick={children.handleBurgerClick}>
+              <Link href="/" onClick={props.handleBurgerClick}>
                 Estudios de Medio Ambiente
               </Link>
-              <Link href="/" onClick={children.handleBurgerClick}>
+              <Link href="/" onClick={props.handleBurgerClick}>
                 Fotogrametríax
               </Link>
             </div>
@@ -97,19 +97,19 @@ const BurgerModal = (children: any) => {
               onClick={handleContactanosClick}
             />
             <div className={isContactanosOpen}>
-              <a href="/" onClick={children.handleBurgerClick}>
+              <a href="/" onClick={props.handleBurgerClick}>
                 Oficina (664) 681 9704
               </a>
-              <a href="/" onClick={children.handleBurgerClick}>
+              <a href="/" onClick={props.handleBurgerClick}>
                 MX +52 (664) 780 7004
               </a>
-              <a href="/" onClick={children.handleBurgerClick}>
+              <a href="/" onClick={props.handleBurgerClick}>
                 USA +001 (619) 598 3879
               </a>
-              <a href="/" onClick={children.handleBurgerClick}>
+              <a href="/" onClick={props.handleBurgerClick}>
                 dbjconsat@hotmail.com
               </a>
-              <a href="/" onClick={children.handleBurgerClick}>
+              <a href="/" onClick={props.handleBurgerClick}>
                 administracion@hotmail.com
               </a>
             </div>

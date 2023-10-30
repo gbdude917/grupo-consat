@@ -1,11 +1,11 @@
 import classes from "../../../../app/styles.module.css";
 
-const BurgerButton = (children: any) => {
+const BurgerButton = (props: any) => {
   return (
     <button
       className={classes.burgerContainer}
       id="burger-menu"
-      onClick={children.handleBurgerClick}
+      onClick={props.handleBurgerClick}
     >
       <div>
         <div className={classes.bar}></div>

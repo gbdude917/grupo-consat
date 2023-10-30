@@ -22,7 +22,9 @@ const Nav = (children: any) => {
             </Link>
             <div className={classes["dropdown-content"]}>
               <Link href="/geotecnia">Geotecnia</Link>
-              <Link href="/">Protección Civil y Programas Internos</Link>
+              <Link href="/proteccion">
+                Protección Civil y Programas Internos
+              </Link>
               <Link href="/">Geología</Link>
               <Link href="/">Cálculo Estructural</Link>
               <Link href="/">Construcción</Link>
