@@ -51,8 +51,8 @@ const Blogs = () => {
       </div>
 
       <div className={classes.blogContainer}>
-        {blogData.map((blog) => (
-          <Blog {...blog} />
+        {blogData.map((blog, key) => (
+          <Blog {...blog} key={key} />
         ))}
       </div>
     </section>

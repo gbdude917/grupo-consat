@@ -56,8 +56,8 @@ const Summary = () => {
       <div className={classes.imageContainer}>
         <Image
           src="/images/GreyCrane.png"
-          width={2100}
-          height={522}
+          width={2101}
+          height={523}
           alt="Cranes"
           className={classes.img}
         />
@@ -71,8 +71,8 @@ const Summary = () => {
         </div>
 
         <div className={classes.cardContainer}>
-          {summaryData.map((data) => (
-            <SummaryCard {...data} />
+          {summaryData.map((data, key) => (
+            <SummaryCard {...data} key={key} />
           ))}
         </div>
       </div>
