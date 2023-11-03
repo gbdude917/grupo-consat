@@ -1,0 +1,64 @@
+.wrapper {
+  height: 500px;
+  width: 35%;
+
+  display: flex;
+  flex-direction: column;
+
+  background: rgba(255, 255, 255, 0.85);
+  color: black;
+
+  margin: 25px 0;
+
+  border-radius: 30px;
+}
+
+.text {
+  margin: 15px 5px;
+  height: 33%;
+}
+
+.text h3 {
+  color: #98b460;
+  font-size: 1.5em;
+}
+
+.text p {
+  font-size: 1.2em !important;
+}
+
+.list {
+  height: 67%;
+}
+
+.list ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+
+  text-align: left;
+  margin: 10px 20px;
+}
+
+@media screen and (max-width: 1015px) {
+  .wrapper {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    width: 75%;
+  }
+
+  .text {
+    height: 45%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .wrapper {
+    width: 95%;
+    height: 600px;
+  }
+}

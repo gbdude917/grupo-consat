@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import HeroImage from "@/components/ContentFormat/HeroImage/HeroImage";
+import HeroImage from "@/components/ContentFormat/HeroFormat/HeroImage/HeroImage";
 import TextWithImage from "@/components/ContentFormat/TextWithImage/TextWithImage";
 import ChecklistImage from "@/components/ContentFormat/Checklist/ChecklistImage/ChecklistImage";
 
