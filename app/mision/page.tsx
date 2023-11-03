@@ -46,7 +46,6 @@ const Mision = () => {
         title="Misión"
         text="Ofrecer servicios de asesoría experta y soluciones innovadoras, apegados a la normatividad vigente, con el fin de satisfacer las necesidades de nuestros clientes, cumpliendo con las expectativas en cuanto a calidad, tiempo y seguridad."
         isTextLeft={true}
-        is500px={false}
         isWhiteBackground={false}
       />
 
@@ -55,7 +54,6 @@ const Mision = () => {
         title="Visión"
         text="Consolidarnos como una empresa responsable, vanguardista y multidisciplinaria en el campo de la ingeniería civil, en el ámbito nacional e internacional, reconocida por la calidad de nuestros servicios, por la seriedad y profesionalismo en nuestro trabajo, y sobre todo por dar alternativas de solución acordes a las necesidades de cada proyecto."
         isTextLeft={false}
-        is500px={false}
         isWhiteBackground={false}
       />
 
@@ -63,6 +61,7 @@ const Mision = () => {
         image="/images/principios.png"
         checklistContents={checkListContents}
         title="Principios"
+        subtext=""
       />
     </main>
   );
