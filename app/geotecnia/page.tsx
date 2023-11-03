@@ -28,7 +28,7 @@ const Geotecnia = () => {
       />
 
       <TextWithImage
-        image="/images/Geotecnia1.jpg"
+        image="/images/Geotecnia1.JPG"
         title="¿QUÉ ES LA GEOTECNIA?"
         text="Es una rama de la ingeniería encargada del estudio de la interacción entre las construcciones y el terreno, en ella se aplican los principios geológicos de la investigación de materiales naturales que constituyen la corteza terrestre, estudiando las propiedades mecánicas, hidráulicas e ingenieriles  del suelo implicados en alguna construcción, como pueden ser autopistas, vías férreas, puentes, presas, oleoductos, acueductos, unidades habitacionales, sitios de confinamiento y edificios en general."
         isTextLeft={true}
