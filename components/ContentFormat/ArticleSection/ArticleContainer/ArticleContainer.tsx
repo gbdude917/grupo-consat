@@ -103,7 +103,7 @@ const geotecniaArticles = [
     description:
       "Son aquellas muestras cuya estructura no es afectada significativamente por el muestreo; se utilizan para clasificar los suelos y hacer determinaciones de propiedades índice, mecánicas e hidráulicas. Por lo general se realiza posteriormente a los ensayos CPT o pruebas PCA.",
     link: "/",
-    image: "/images/GeotecniaArticle3.jpg",
+    image: "/images/GeotecniaArticle3.JPG",
   },
   {
     id: 4,
@@ -119,7 +119,7 @@ const geotecniaArticles = [
     description:
       "Una de las principales ventajas de este ensayo es que tenemos un registro continuo de las caracerísticas geotécnicas del terreno y que a partir la gráfica se puede estimar que longitud deberíatener un pilote o pila para que la zona de influencia de la punta del pilote se sitúe en la zona de mayor resistencia (valores de qc más elevados).",
     link: "/",
-    image: "/images/GeotecniaArticle5.jpg",
+    image: "/images/GeotecniaArticle5.JPG",
   },
   {
     id: 6,
