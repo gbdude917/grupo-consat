@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import HeroImage from "@/components/ContentFormat/HeroImage/HeroImage";
+import HeroImage from "@/components/ContentFormat/HeroFormat/HeroImage/HeroImage";
 import WorkerSection from "@/components/ContentFormat/WorkerSection/WorkerSection";
 import TextWithImage from "@/components/ContentFormat/TextWithImage/TextWithImage";
 import GeotecniaTests from "@/components/PageSections/Geotecnia/GeotecniaTestsSection/GeotecniaTests";
