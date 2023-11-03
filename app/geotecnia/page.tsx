@@ -15,7 +15,7 @@ const Geotecnia = () => {
   return (
     <main>
       <HeroImage
-        image="/images/GeotecniaHero.jpg"
+        image="/images/GeotecniaHero.JPG"
         pageName="Geotecnia"
         subText="Mediante la aplicación de los principios geológicos, estudia la calidad de los materiales que forman la corteza terrestre y que son utilizados en las construcciones, para el diseño de proyectos de ingeniería civil orientados a la prevención de patologías constructivas."
       />
