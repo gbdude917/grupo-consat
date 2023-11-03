@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import HeroImage from "@/components/ContentFormat/HeroImage/HeroImage";
 import SwappableInfoBlock from "@/components/ContentFormat/SwappableInfoBlock/SwappableInfoBlock";
+import TrainingSection from "@/components/PageSections/Proteccion/TrainingSection/TrainingSection";
 
 export const metadata: Metadata = {
   title: "Proteccion",
@@ -18,6 +19,8 @@ const Proteccion = () => {
       />
 
       <SwappableInfoBlock />
+
+      <TrainingSection />
     </main>
   );
 };
