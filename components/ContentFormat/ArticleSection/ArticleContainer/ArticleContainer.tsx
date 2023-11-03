@@ -161,7 +161,7 @@ const ArticleContainer = () => {
   }
 
   const content = articles
-    ? articles.map((article) => (
+    ? articles.map((article, key) => (
         <ArticleCard
           title={article.title}
           description={article.description}
@@ -169,7 +169,8 @@ const ArticleContainer = () => {
           image={article.image}
           hasLink={hasLink}
           enlarge={enlarge}
-          key={article.id}
+          myKey={article.id}
+          key={key}
         />
       ))
     : "";
