@@ -25,7 +25,7 @@ const Nav = (children: any) => {
               <Link href="/proteccion">
                 Protección Civil y Programas Internos
               </Link>
-              <Link href="/">Geología</Link>
+              <Link href="/geologia">Geología</Link>
               <Link href="/">Cálculo Estructural</Link>
               <Link href="/">Construcción</Link>
               <Link href="/">Laboratorio de control de calidad</Link>

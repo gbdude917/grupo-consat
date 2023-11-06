@@ -29,7 +29,7 @@ const HomeIntro = () => {
         </h3>
         <ul>
           <li>
-            <a href="/">Geotecnica</a>
+            <a href="/geotecnia">Geotecnica</a>
           </li>
           <li>
             <a href="/">Cálculo estructural</a>
@@ -38,7 +38,7 @@ const HomeIntro = () => {
             <a href="/">Construc​ción</a>
           </li>
           <li>
-            <a href="/">Geología</a>
+            <a href="/geologia">Geología</a>
           </li>
           <li>
             <a href="/">
@@ -47,7 +47,7 @@ const HomeIntro = () => {
             </a>
           </li>
           <li>
-            <a href="/">Protección civil & capacitación</a>
+            <a href="/proteccion">Protección civil & capacitación</a>
           </li>
           <li>
             <a href="/">Estudios de medio ambiente</a>

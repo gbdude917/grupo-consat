@@ -37,7 +37,7 @@ const Footer = () => {
                 <Link href="/">Cálculo estructural</Link>
               </li>
               <li>
-                <Link href="/">Geología</Link>
+                <Link href="/geologia">Geología</Link>
               </li>
               <li>
                 <Link href="/">Construcción</Link>
@@ -46,7 +46,7 @@ const Footer = () => {
                 <Link href="/">Laboratorio de control de calidad</Link>
               </li>
               <li>
-                <Link href="/">Protección civil y capacitación</Link>
+                <Link href="/proteccion">Protección civil y capacitación</Link>
               </li>
               <li>
                 <Link href="/">Estudios de medio ambiente</Link>
