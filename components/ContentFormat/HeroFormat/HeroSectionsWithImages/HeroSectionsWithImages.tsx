@@ -1,23 +1,23 @@
 import Image from "next/image";
-import InfoCard from "./InfoCard/InfoCard";
 
-import classes from "./HeroImageSections.module.css";
+import InfoCardWithImage from "./InfoCardWithImage/InfoCardWithImage";
+
+import classes from "./HeroSectionsWithImages.module.css";
 
 interface Section {
   id: number;
   title: string;
   subtext: string;
-  list: string[];
+  image: string;
 }
 
 interface HeroImageProps {
   image: string;
   sectionName: string;
-  subText: string;
   contents: Section[];
 }
 
-const HeroImageSections = (props: HeroImageProps) => {
+const HeroSectionsWithImages = (props: HeroImageProps) => {
   return (
     <section className={classes.hero}>
       <div className={classes.overlay}>
@@ -33,12 +33,11 @@ const HeroImageSections = (props: HeroImageProps) => {
       <div className={`${classes.textWrapper} ${classes["hero-text"]}`}>
         <div className={classes.header}>
           <h2>{props.sectionName}</h2>
-          <p>{props.subText}</p>
         </div>
 
         <div className={classes.content}>
           {props.contents.map((content, key) => (
-            <InfoCard key={key} {...content} />
+            <InfoCardWithImage key={key} {...content} />
           ))}
         </div>
       </div>
@@ -46,4 +45,4 @@ const HeroImageSections = (props: HeroImageProps) => {
   );
 };
 
-export default HeroImageSections;
+export default HeroSectionsWithImages;

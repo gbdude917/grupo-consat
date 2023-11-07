@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import HeroImage from "@/components/ContentFormat/HeroFormat/HeroImage/HeroImage";
-import SwappableInfoBlock from "@/components/ContentFormat/SwappableInfoBlock/SwappableInfoBlock";
+import SwappableInfoBlockThree from "@/components/ContentFormat/SwappableInfoBlock/SwappableInfoBlock3/SwappableInfoBlockThree";
 import TrainingSection from "@/components/PageSections/Proteccion/TrainingSection/TrainingSection";
 import HeroImageSections from "@/components/ContentFormat/HeroFormat/HeroImageSections/HeroImageSections";
 
@@ -97,7 +97,7 @@ const Proteccion = () => {
         subText="Contamos con asesorías de elaboración, implementación, ejecución y actualización del Programa Interno de Protección Civil"
       />
 
-      <SwappableInfoBlock />
+      <SwappableInfoBlockThree />
 
       <TrainingSection />
 

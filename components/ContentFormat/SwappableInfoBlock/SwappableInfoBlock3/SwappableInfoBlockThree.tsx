@@ -2,12 +2,12 @@
 
 import { useState } from "react";
 
-import classes from "./SwappableInfoBlock.module.css";
-import ContentSectionImageDoubleText from "./ValidSections/ContentSectionImageDoubleText/ContentSectionImageDoubleText";
-import ContentSectionImageText from "./ValidSections/ContentSectionImageText/ContentSectionImageText";
-import ContentSectionImageTextThreeCol from "./ValidSections/ContentSectionImageTextThreeCol/ContentSectionImageTextThreeCol";
+import classes from "./SwappableInfoBlockThree.module.css";
+import ContentSectionImageDoubleText from "../ValidSections/ContentSectionImageDoubleText/ContentSectionImageDoubleText";
+import ContentSectionImageText from "../ValidSections/ContentSectionImageText/ContentSectionImageText";
+import ContentSectionImageTextThreeCol from "../ValidSections/ContentSectionImageTextThreeCol/ContentSectionImageTextThreeCol";
 
-const SwappableInfoBlock = () => {
+const SwappableInfoBlockThree = () => {
   const [visibleDivId, setVisibleDivId] = useState(1);
   const handleClick = (e: any) => {
     const id = Number(e.target.id);
@@ -90,4 +90,4 @@ const SwappableInfoBlock = () => {
   );
 };
 
-export default SwappableInfoBlock;
+export default SwappableInfoBlockThree;

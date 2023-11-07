@@ -1,0 +1,82 @@
+.wrapper {
+  height: 650px;
+  width: 100%;
+  margin: 15px auto;
+}
+
+.container {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+}
+
+.buttonContainer {
+  width: 100%;
+  height: 15%;
+  display: flex;
+}
+
+.buttonContainer button {
+  width: 25%;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  transition: all 500ms;
+}
+
+.buttonContainer button:hover {
+  font-size: 22px;
+  color: #98b460;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.highlight {
+  background-color: #eaeaea !important;
+  font-size: 22px !important;
+  color: #98b460;
+  text-decoration: underline;
+}
+
+.contentContainer {
+  height: 85%;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    height: 950px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    margin: 0;
+    width: 98%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .wrapper {
+    height: 1300px;
+  }
+
+  .container {
+    height: 100%;
+  }
+
+  .buttonContainer button {
+    font-size: 12px;
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    overflow: hidden; /* Hide any overflowing text */
+    text-overflow: ellipsis;
+  }
+
+  .buttonContainer button:hover {
+    font-size: 15px;
+  }
+
+  .highlight {
+    font-size: 15px !important;
+  }
+}

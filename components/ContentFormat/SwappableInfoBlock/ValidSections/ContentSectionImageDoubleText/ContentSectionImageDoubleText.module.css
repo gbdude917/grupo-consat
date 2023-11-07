@@ -47,6 +47,10 @@
   margin-top: 30px;
 }
 
+.text2 p {
+  white-space: pre-wrap;
+}
+
 @media screen and (max-width: 550px) {
   .wrapper {
     display: flex;

@@ -15,22 +15,63 @@
   padding: 25px 0;
 }
 
+/* Pop-up animation */
+@keyframes createSection {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.wrapperHidden {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.show {
+  animation: createSection 1s;
+}
+
+.hide {
+  height: 0px;
+  overflow: hidden;
+}
+
 .imageWrapper {
   width: 30%;
   align-items: center;
   margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: contain;
 }
 
 .image {
-  height: 250px;
-  width: 250px;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
-  border-radius: 50%;
 }
 
 .imageContainer figcaption {
   text-align: center;
   margin-top: 15px;
+}
+
+.textWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .textContainer {
@@ -55,7 +96,7 @@
     margin-right: 5px;
   }
 
-  .image {
+  .circle {
     height: 150px;
     width: 150px;
   }

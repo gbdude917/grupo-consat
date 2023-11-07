@@ -1,0 +1,20 @@
+.workerSection__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.line {
+  border-bottom: 7px #98b460 solid;
+  width: 100px;
+  margin: 15px auto;
+}
+
+@media screen and (max-width: 500px) {
+  .workerSection__header {
+    text-align: center;
+  }
+}

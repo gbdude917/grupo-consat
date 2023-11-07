@@ -7,9 +7,9 @@ interface ContentSectionImageDoubleTextProps {
   visibleDivId: number;
   image: string;
   title1: string;
-  title2: string;
+  title2?: string;
   text1: string;
-  text2: string;
+  text2?: string;
 }
 
 const ContentSectionImageDoubleText = (
