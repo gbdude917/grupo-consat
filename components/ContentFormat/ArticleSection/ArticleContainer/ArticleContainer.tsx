@@ -22,7 +22,7 @@ const homeArticles = [
     title: "Cálculo estructural",
     description:
       "A través de nuestro personal se lleva a cabo el cálculo de las cargas máximas que la estructura soporta y transmite al terreno.",
-    link: "/",
+    link: "/calculo",
     image: "/images/CalculoEstructural.jpg",
   },
   {
@@ -30,7 +30,7 @@ const homeArticles = [
     title: "Geología",
     description:
       "Es la ciencia dedicada al estudio de la tierra con el objetivo de comprender su composición física.",
-    link: "/",
+    link: "/geologia",
     image: "/images/Geologia.jpeg",
   },
   {
@@ -38,7 +38,7 @@ const homeArticles = [
     title: "Construcción",
     description:
       "Garantizamos el buen control de calidad durante el desarrollo de su proyecto a través de nuestro equipo.",
-    link: "/",
+    link: "/construccion",
     image: "/images/Construccion.png",
   },
   {
@@ -47,7 +47,7 @@ const homeArticles = [
       "Laboratorio de control de calidad para la industria de la construcción",
     description:
       "Contamos con personal capacitado, instalaciones, equipo y maquinaria de laboratorio apropiada, para brindarle un mejor servicio.",
-    link: "/",
+    link: "/laboratorio",
     image: "/images/Laboratorio.jpeg",
   },
   {
@@ -55,7 +55,7 @@ const homeArticles = [
     title: "Protección civil y capacitación",
     description:
       "Gestión en protección civil, bomberos y programas internos y capacitación.",
-    link: "/",
+    link: "/proteccion",
     image: "/images/Proteccion.jpg",
   },
   {
@@ -63,7 +63,7 @@ const homeArticles = [
     title: "Estudios de medio ambiente",
     description:
       "Se ​previenen, mitigan y restauran los daños al ambiente así como la regulación de obras o actividades para evitar o reducir sus efectos negativos en el ambiente.",
-    link: "/",
+    link: "/estudios",
     image: "/images/Estudios.jpg",
   },
   {
@@ -71,14 +71,14 @@ const homeArticles = [
     title: "Fotogrametría",
     description:
       "Facilita el desarrollo del proyecto, haciendo uso de equipo especializado para cada trabajo.",
-    link: "/",
+    link: "/fotogrametria",
     image: "/images/Fotogrametria.jpg",
   },
   {
     id: 9,
     title: "Proximamente",
     description: "Nos estamos preparando para ofrecer más servicios.",
-    link: "/",
+    link: "/proximamente",
     image: "/images/Proximamente.png",
   },
 ];

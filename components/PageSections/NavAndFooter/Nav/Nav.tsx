@@ -26,11 +26,11 @@ const Nav = (children: any) => {
                 Protección Civil y Programas Internos
               </Link>
               <Link href="/geologia">Geología</Link>
-              <Link href="/">Cálculo Estructural</Link>
-              <Link href="/">Construcción</Link>
-              <Link href="/">Laboratorio de control de calidad</Link>
-              <Link href="/">Estudios de Medio Ambiente</Link>
-              <Link href="/">Fotogrametríax</Link>
+              <Link href="/calculo">Cálculo Estructural</Link>
+              <Link href="/construccion">Construcción</Link>
+              <Link href="/laboratorio">Laboratorio de control de calidad</Link>
+              <Link href="/estudios">Estudios de Medio Ambiente</Link>
+              <Link href="/fotogrametria">Fotogrametría</Link>
             </div>
           </li>
           <li>
@@ -49,7 +49,7 @@ const Nav = (children: any) => {
             </div>
           </li>
           <li>
-            <a href="/">Noticias</a>
+            <a href="/noticias">Noticias</a>
           </li>
         </ul>
       </div>
