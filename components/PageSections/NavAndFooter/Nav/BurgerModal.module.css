@@ -52,6 +52,14 @@
   display: none;
 }
 
+.servicios__button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin-right: 0.25em;
+}
+
 .downArrow {
   border: none; /* Remove button borders for burger modal */
   background-color: transparent; /* Remove button color for burger modal */

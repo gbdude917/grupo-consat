@@ -52,9 +52,12 @@ const BurgerModal = (props: any) => {
             </Link>
           </li>
           <li>
-            <Link href="/" onClick={props.handleBurgerClick}>
+            <button
+              className={classes.servicios__button}
+              onClick={handleServiciosClick}
+            >
               Servicios
-            </Link>
+            </button>
             <button
               className={classes.downArrow}
               onClick={handleServiciosClick}
