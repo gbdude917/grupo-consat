@@ -18,7 +18,7 @@ const blogData = [
   {
     id: 2,
     title: "Mapas geológicos",
-    image: "/images/Mapa.png",
+    image: "/images/GeologiaData4.png",
     date: "21 Julio 2022",
     description:
       "Estudio de estructuras geológicas mediante la aplicación de metodologías de geología estructural mediante la elaboración de mapas geológicos y temas relacionados.",
