@@ -29,7 +29,7 @@ const Nav = (children: any) => {
               <Link href="/calculo">Cálculo Estructural</Link>
               <Link href="/construccion">Construcción</Link>
               <Link href="/laboratorio">Laboratorio de control de calidad</Link>
-              <Link href="/estudios">Estudios de Medio Ambiente</Link>
+              <Link href="/ambiente">Estudios de Medio Ambiente</Link>
               <Link href="/fotogrametria">Fotogrametría</Link>
             </div>
           </li>

@@ -70,23 +70,23 @@ const BurgerModal = (props: any) => {
               <Link href="/proteccion" onClick={props.handleBurgerClick}>
                 Protección Civil y Programas Internos
               </Link>
-              <Link href="/" onClick={props.handleBurgerClick}>
+              <Link href="/geologia" onClick={props.handleBurgerClick}>
                 Geología
               </Link>
-              <Link href="/" onClick={props.handleBurgerClick}>
+              <Link href="/calculo" onClick={props.handleBurgerClick}>
                 Cálculo Estructural
               </Link>
-              <Link href="/" onClick={props.handleBurgerClick}>
+              <Link href="/construccion" onClick={props.handleBurgerClick}>
                 Construcción
               </Link>
-              <Link href="/" onClick={props.handleBurgerClick}>
+              <Link href="/laboratorio" onClick={props.handleBurgerClick}>
                 Laboratorio de control de calidad
               </Link>
-              <Link href="/" onClick={props.handleBurgerClick}>
+              <Link href="/ambiente" onClick={props.handleBurgerClick}>
                 Estudios de Medio Ambiente
               </Link>
-              <Link href="/" onClick={props.handleBurgerClick}>
-                Fotogrametríax
+              <Link href="/fotogrametria" onClick={props.handleBurgerClick}>
+                Fotogrametría
               </Link>
             </div>
           </li>

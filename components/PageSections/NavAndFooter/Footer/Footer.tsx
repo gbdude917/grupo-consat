@@ -34,25 +34,27 @@ const Footer = () => {
                 <Link href="/geotecnia">Geotecnia</Link>
               </li>
               <li>
-                <Link href="/">Cálculo estructural</Link>
+                <Link href="/calculo">Cálculo estructural</Link>
               </li>
               <li>
                 <Link href="/geologia">Geología</Link>
               </li>
               <li>
-                <Link href="/">Construcción</Link>
+                <Link href="/construccion">Construcción</Link>
               </li>
               <li>
-                <Link href="/">Laboratorio de control de calidad</Link>
+                <Link href="/laboratorio">
+                  Laboratorio de control de calidad
+                </Link>
               </li>
               <li>
                 <Link href="/proteccion">Protección civil y capacitación</Link>
               </li>
               <li>
-                <Link href="/">Estudios de medio ambiente</Link>
+                <Link href="/ambiente">Estudios de medio ambiente</Link>
               </li>
               <li>
-                <Link href="/">Fotogrametría</Link>
+                <Link href="/fotogrametria">Fotogrametría</Link>
               </li>
             </ul>
           </div>
