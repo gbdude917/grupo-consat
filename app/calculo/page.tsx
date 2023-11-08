@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import HeroImage from "@/components/ContentFormat/HeroFormat/HeroImage/HeroImage";
 import TextWithImage from "@/components/ContentFormat/TextWithImage/TextWithImage/TextWithImage";
 import HeroImageSection from "@/components/ContentFormat/HeroFormat/HeroImageSection/HeroImageSection";
+import Memoria from "@/components/PageSections/Calculo/MemoriaSection/Memoria";
 
 export const metadata: Metadata = {
   title: "Calculo",
@@ -54,6 +55,8 @@ const Calculo = () => {
           "Diseño para ampliaciones",
         ]}
       />
+
+      <Memoria />
     </main>
   );
 };
