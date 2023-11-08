@@ -1,0 +1,137 @@
+.container {
+  height: auto;
+  width: 100vw;
+  margin: 100px auto;
+  display: flex;
+}
+
+.wrapperLTRI,
+.wrapperRTLI {
+  display: flex;
+
+  /* height: 500px; */
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  animation: createSection 1s;
+}
+
+/* Animation */
+@keyframes createSection {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.line {
+  border-bottom: 7px #98b460 solid;
+  width: 100px;
+  margin: 15px auto;
+}
+
+.textContainer {
+  height: 100%;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whiteBackground {
+  color: black;
+  background-color: white;
+}
+
+.greyBackground {
+  color: white;
+  background-color: #4d4d4d;
+}
+
+.textWrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.textWrapper h2 {
+  font-size: 2rem;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.textWrapper p {
+  font-size: 15px;
+  margin-top: 10px;
+  line-height: 30px;
+  white-space: pre-line;
+}
+
+.textWrapper ol {
+  font-size: 15px;
+  line-height: 30px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.imageWrapper {
+  width: 50%;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 1025px) {
+  .textWrapper p {
+    text-align: center;
+  }
+
+  .textWrapper p,
+  .textWrapper ol {
+    line-height: 20px;
+  }
+
+  .is700px,
+  .is40vh {
+    height: auto;
+  }
+
+  .image {
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .wrapperLTRI,
+  .wrapperRTLI {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 100%;
+    width: 95vw;
+  }
+
+  .wrapperRTLI {
+    flex-direction: column;
+  }
+
+  .textContainer,
+  .imageWrapper {
+    text-overflow: ellipsis;
+    width: 95%;
+  }
+}

@@ -3,17 +3,18 @@
 import Image from "next/image";
 import { useInView } from "react-intersection-observer";
 
-import classes from "./TextWithImage.module.css";
+import classes from "./TextWithImageList.module.css";
 
-interface TextWithImageProps {
+interface TextWithImageListProps {
   image: string;
   title: string;
   text: string;
+  list: string[];
   isTextLeft: boolean;
   isWhiteBackground: boolean;
 }
 
-const TextWithImage = (props: TextWithImageProps) => {
+const TextWithImageList = (props: TextWithImageListProps) => {
   const [ref, inView] = useInView({ triggerOnce: true });
 
   const backgroundColor = props.isWhiteBackground
@@ -37,6 +38,11 @@ const TextWithImage = (props: TextWithImageProps) => {
           <h2>{props.title}</h2>
           <div className={classes.line} />
           <p>{props.text}</p>
+          <ol>
+            {props.list.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ol>
         </div>
       </div>
 
@@ -67,6 +73,11 @@ const TextWithImage = (props: TextWithImageProps) => {
           <h2>{props.title}</h2>
           <div className={classes.line} />
           <p>{props.text}</p>
+          <ol>
+            {props.list.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ol>
         </div>
       </div>
     </>
@@ -79,4 +90,4 @@ const TextWithImage = (props: TextWithImageProps) => {
   );
 };
 
-export default TextWithImage;
+export default TextWithImageList;
