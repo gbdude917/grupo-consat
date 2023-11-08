@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import HeroImage from "@/components/ContentFormat/HeroFormat/HeroImage/HeroImage";
 import WorkerSection from "@/components/ContentFormat/WorkerSection/WorkerSection";
-import TextWithImage from "@/components/ContentFormat/TextWithImage/TextWithImage";
+import TextWithImage from "@/components/ContentFormat/TextWithImage/TextWithImage/TextWithImage";
 import GeotecniaTests from "@/components/PageSections/Geotecnia/GeotecniaTestsSection/GeotecniaTests";
 import GeotecniaAnalysis from "@/components/PageSections/Geotecnia/GeotecniaAnalysisSection/GeotecniaAnalysis";
 

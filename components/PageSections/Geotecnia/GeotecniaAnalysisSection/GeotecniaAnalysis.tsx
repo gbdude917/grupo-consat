@@ -1,4 +1,4 @@
-import TextWithImage from "@/components/ContentFormat/TextWithImage/TextWithImage";
+import TextWithImage from "@/components/ContentFormat/TextWithImage/TextWithImage/TextWithImage";
 import classes from "./GeotecniaAnalysis.module.css";
 
 const GeotecniaAnalysis = () => {

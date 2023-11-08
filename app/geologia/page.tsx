@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 import HeroImage from "@/components/ContentFormat/HeroFormat/HeroImage/HeroImage";
-import TextWithImage from "@/components/ContentFormat/TextWithImage/TextWithImage";
+import TextWithImage from "@/components/ContentFormat/TextWithImage/TextWithImage/TextWithImage";
 import WorkerSection from "@/components/ContentFormat/WorkerSection/WorkerSection";
-
-import classes from "./page.module.css";
 import SwappableInfoBlockFour from "@/components/ContentFormat/SwappableInfoBlock/SwappableInfoBlock4/SwappableInfoBlockFour";
 import HeroSectionsWithImages from "@/components/ContentFormat/HeroFormat/HeroSectionsWithImages/HeroSectionsWithImages";
+
+import classes from "./page.module.css";
 
 export const metadata: Metadata = {
   title: "Geología",

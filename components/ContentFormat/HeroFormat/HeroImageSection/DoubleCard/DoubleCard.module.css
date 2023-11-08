@@ -1,0 +1,125 @@
+.wrapper {
+  width: 70vw;
+  height: 65vh;
+
+  display: flex;
+
+  text-align: left;
+}
+
+.left,
+.right {
+  width: 50%;
+  height: 100%;
+}
+
+.left {
+  background-color: white;
+  color: black;
+}
+
+.right {
+  background-color: #333333;
+}
+
+.container {
+  height: 100%;
+}
+
+.subSection1 {
+  margin: 50px 20px;
+}
+
+.subSection1 h2 {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+.subSection1 p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.subSection2,
+.subSection3 {
+  height: 50%;
+  margin: 12.5px 20px;
+}
+
+.right h3 {
+  font-size: 22px;
+  color: #98b460;
+}
+
+.right ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+@media screen and (max-width: 1105px) {
+  .wrapper {
+    width: 95vw;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .wrapper {
+    width: 90vw;
+    height: 90vh;
+
+    flex-direction: column;
+  }
+
+  .right,
+  .left {
+    height: 50%;
+    width: 100%;
+  }
+
+  .subSection1 {
+    margin: 15px 5px;
+  }
+
+  .subSection2,
+  .subSection3 {
+    width: 50%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .right h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .left p {
+    font-size: 15px;
+  }
+
+  .right h3 {
+    font-size: 15px;
+  }
+
+  .right ul {
+    font-size: 12px;
+  }
+
+  .subSection1 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .subSection1 p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .subSection2,
+  .subSection3 {
+    margin: 15px 10px;
+  }
+}
