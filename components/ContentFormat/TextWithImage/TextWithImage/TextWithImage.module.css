@@ -123,4 +123,8 @@
     text-overflow: ellipsis;
     width: 95%;
   }
+
+  .textWrapper h2 {
+    font-size: 25px;
+  }
 }
