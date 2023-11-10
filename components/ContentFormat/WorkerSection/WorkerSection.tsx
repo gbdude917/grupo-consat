@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 import classes from "./WorkerSection.module.css";
 
 interface WorkerSectionProps {
-  image: string;
+  image: any;
   name: string;
   caption?: string;
   description: string;
@@ -34,8 +34,8 @@ const WorkerSection = (props: WorkerSectionProps) => {
               <Image
                 src={props.image}
                 alt={props.name}
-                height={500}
-                width={800}
+                // height={500}
+                // width={800}
                 className={classes.image}
               />
             </div>

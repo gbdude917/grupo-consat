@@ -6,6 +6,8 @@ import TextWithImage from "@/components/ContentFormat/TextWithImage/TextWithImag
 import GeotecniaTests from "@/components/PageSections/Geotecnia/GeotecniaTestsSection/GeotecniaTests";
 import GeotecniaAnalysis from "@/components/PageSections/Geotecnia/GeotecniaAnalysisSection/GeotecniaAnalysis";
 
+import joseImage from "../../public/images/JoseLuisSanchezGonzalez.jpg";
+
 export const metadata: Metadata = {
   title: "Geotecnia",
   description: "...",
@@ -21,7 +23,7 @@ const Geotecnia = () => {
       />
 
       <WorkerSection
-        image="/images/JoseLuisSanchezGonzalez.jpg"
+        image={joseImage}
         name="Ing. José Luis Sánchez González"
         caption="Responsable del departamento de Geotecnia"
         description="Egresado del Instituto Politécnico Nacional, cuenta con una maestría en Ingeniería Civil, con especialidad en Geotecnia avalada por la Escuela Superior de Ingeniería y Arquitectura Unidad Zacatenco del Instituto Politécnico Nacional. Profesionalment​e ha incursionado en Estudios de Mecánica de Suelos, Análisis y Diseños Geotécnicos, Supervisión Geotécnica, Exploración y Muestreo, Laboratorio de Mecánica de Suelos y Modelado Numérico 2D y 3D."

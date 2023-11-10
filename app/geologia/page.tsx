@@ -8,6 +8,9 @@ import HeroSectionsWithImages from "@/components/ContentFormat/HeroFormat/HeroSe
 
 import classes from "./page.module.css";
 
+import enriqueImage from "../../public/images/Enrique.jpeg";
+import raquelImage from "../../public/images/Raquel.jpeg";
+
 export const metadata: Metadata = {
   title: "Geología",
   description: "...",
@@ -72,13 +75,13 @@ const Geologia = () => {
         </div>
 
         <WorkerSection
-          image="/images/Enrique.jpeg"
+          image={enriqueImage}
           name="Geo. Enrique Alejandro Ortega Castillo"
           description="El encargado del ramo del área de Geología es el Ing. Enrique Alejandro Ortega Castillo quien cuenta con especialidad en rocas carbonatadas del Cretácico, detección de fallas geológicas y elaboración de planos geológicos, avalado por la Universidad Autónoma del Estado de Guerrero (UAGro) y la Escuela Superior de Ciencias de la Tierra (ESCT)."
         />
 
         <WorkerSection
-          image="/images/Raquel.jpeg"
+          image={raquelImage}
           name="Geo. Raquel Maldonado Chavelas"
           description="Egresada de la Escuela Superior de Ciencias de la Tierra en Taxco el Viejo, Gro. Cuenta con una licenciatura en Geología, con especialidad en rocas sedimentarias marinas y geoquímica, avalada por la Universidad Autónoma de Guerrero (UAGro). Profesionalmente ha incursionado en la industria minera desarrollando trabajos de logueo, interpretaciones de secciones geológicas, supervisión de trabajos de barrenación e identificación de alteraciones hidrotermales."
         />
