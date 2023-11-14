@@ -1,0 +1,50 @@
+.wrapper {
+  border: 2px solid #98b460;
+  color: black;
+  background-color: white;
+
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+}
+
+.title {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer {
+  height: 60%;
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    margin: 12.5px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .image {
+    height: 50px;
+    width: 50px;
+  }
+
+  .title h3 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .wrapper {
+    margin: 5px;
+    height: 125px;
+    width: 125px;
+  }
+}
