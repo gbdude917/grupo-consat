@@ -2,8 +2,8 @@
   margin-top: 100px;
 }
 
-.section__hero__header {
-  font-size: 30px;
+.section__hero__header h2 {
+  font-size: 40px;
   display: flex;
   justify-content: center;
   align-items: center;

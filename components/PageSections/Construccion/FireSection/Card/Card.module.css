@@ -1,0 +1,25 @@
+.wrapper {
+  height: 500px;
+  width: 400px;
+
+  margin: 25px;
+}
+
+.wrapper h3 {
+  margin-top: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+  .wrapper {
+    height: 450px;
+    width: 300px;
+    margin: 10px;
+  }
+
+  .image {
+    height: auto;
+    width: 300px;
+  }
+}

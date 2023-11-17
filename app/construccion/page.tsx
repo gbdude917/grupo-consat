@@ -5,6 +5,10 @@ import ServiciosSection from "@/components/PageSections/Construccion/ServiciosSe
 import TextWithImageList from "@/components/ContentFormat/TextWithImage/TextWithImageList/TextWithImageList";
 import ProyectoSection from "@/components/PageSections/Construccion/ProyectoSection/ProyectoSection";
 import MemoriaSection from "@/components/PageSections/Construccion/MemoriaSection/MemoriaSection";
+import DesignSection from "@/components/PageSections/Construccion/DesignSection/DesignSection";
+import FireSection from "@/components/PageSections/Construccion/FireSection/FireSection";
+import SoilSection from "@/components/PageSections/Construccion/SoilSection/SoilSection";
+import HeroSingleSection from "@/components/ContentFormat/HeroFormat/HeroSingleSection/HeroSingleSection";
 
 export const metadata: Metadata = {
   title: "Construc​ción",
@@ -75,6 +79,19 @@ const Construccion = () => {
       <ProyectoSection />
 
       <MemoriaSection />
+
+      <DesignSection />
+
+      <FireSection />
+
+      <SoilSection />
+
+      <HeroSingleSection
+        image="/images/ConstruccionHero2.jpg"
+        header1="Proyecto Eléctrico"
+        header2="Contamos con personal apto para realizar tus proyectos eléctricos"
+        description='La elaboración del proyecto eléctrico, incluye el diseño de la concentración de medidores,   cálculos de cargas así como las especificaciones de materiales y el equipo necesario para realizar las instalación de manera correcta y segura, por otro lado se incluyen los cuadros de carga individuales o genéricos dependiendo del proyecto a tratar, también se incluyen 2 copias de cada plano eléctrico en "copia dura" y un disco compacto con el proyecto, además de la firma profesional y apoyo con la tramitación ante la comisión federal de electricidad.'
+      />
     </main>
   );
 };
