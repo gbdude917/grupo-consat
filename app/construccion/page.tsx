@@ -4,6 +4,7 @@ import HeroImage from "@/components/ContentFormat/HeroFormat/HeroImage/HeroImage
 import ServiciosSection from "@/components/PageSections/Construccion/ServiciosSection/ServiciosSection";
 import TextWithImageList from "@/components/ContentFormat/TextWithImage/TextWithImageList/TextWithImageList";
 import ProyectoSection from "@/components/PageSections/Construccion/ProyectoSection/ProyectoSection";
+import MemoriaSection from "@/components/PageSections/Construccion/MemoriaSection/MemoriaSection";
 
 export const metadata: Metadata = {
   title: "Construc​ción",
@@ -72,6 +73,8 @@ const Construccion = () => {
       />
 
       <ProyectoSection />
+
+      <MemoriaSection />
     </main>
   );
 };
