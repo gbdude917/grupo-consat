@@ -2,6 +2,7 @@
   height: auto;
   width: 100vw;
   margin: 100px auto;
+  padding: 0 40px;
   display: flex;
   color: black;
   background-color: white;
@@ -46,7 +47,7 @@
 
 .textWrapper a {
   height: 55px;
-  width: 65%;
+  width: 400px;
 
   border: 2px solid black;
   border-radius: 35px;
@@ -74,4 +75,48 @@
 .image {
   height: 100%;
   width: 100%;
+}
+
+@media screen and (max-width: 910px) {
+  .image {
+    object-fit: cover;
+  }
+
+  .textWrapper h2 {
+    font-size: 25px;
+  }
+
+  .textWrapper a {
+    width: 275px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 100%;
+    width: 95vw;
+    padding: 0;
+  }
+
+  .textContainer,
+  .imageWrapper {
+    text-overflow: ellipsis;
+    width: 95%;
+  }
+
+  .textWrapper a {
+    width: 400px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .textWrapper a {
+    width: 270px;
+    font-size: 11px;
+  }
 }

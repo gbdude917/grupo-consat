@@ -60,6 +60,10 @@
 }
 
 @media screen and (max-width: 530px) {
+  .hero {
+    height: 100vh;
+  }
+
   .hero-text h1 {
     font-size: 2rem;
     width: 90%;
