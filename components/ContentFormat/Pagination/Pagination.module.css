@@ -1,0 +1,45 @@
+.wrapper {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 75px 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.buttonContainer {
+  width: 100%;
+  flex-direction: row;
+  justify-content: start;
+  height: 50px;
+  background-color: #e5e5e5;
+}
+
+.buttonContainer button {
+  height: 100%;
+  width: 175px;
+
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+}
+
+.highlight {
+  color: white;
+  background-color: #3a3839;
+}
+
+.inactive {
+  color: black;
+  background-color: #e5e5e5;
+}
