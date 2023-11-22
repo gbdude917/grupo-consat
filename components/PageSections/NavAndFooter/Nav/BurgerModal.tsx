@@ -94,7 +94,12 @@ const BurgerModal = (props: any) => {
             <a href="/">Constancias y Licencias</a>
           </li>
           <li>
-            <a href="/">Contáctanos </a>
+            <button
+              className={classes.servicios__button}
+              onClick={handleContactanosClick}
+            >
+              Contáctanos
+            </button>
             <button
               className={classes.downArrow}
               onClick={handleContactanosClick}
