@@ -10,7 +10,8 @@ import joseImage from "../../public/images/JoseLuisSanchezGonzalez.jpg";
 
 export const metadata: Metadata = {
   title: "Geotecnia",
-  description: "...",
+  description:
+    "Mediante la aplicación de los principios geológicos, estudia la calidad de los materiales que forman la corteza terrestre y que son utilizados en las construcciones, para el diseño de proyectos de ingeniería civil orientados a la prevención de patologías constructivas.",
 };
 
 const Geotecnia = () => {

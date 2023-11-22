@@ -6,7 +6,8 @@ import ChecklistImage from "@/components/ContentFormat/Checklist/ChecklistImage/
 
 export const metadata: Metadata = {
   title: "Mision",
-  description: "...",
+  description:
+    "Desarrollar proyectos donde al cliente se le genere la confianza de que se buscará la optimización del proyecto en busca de soluciones con un costo-beneficio, llegando a un proyecto sustentable.",
 };
 
 const checkListContents = [

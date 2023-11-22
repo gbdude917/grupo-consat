@@ -20,7 +20,7 @@ const Home = () => {
       <CardPictureContainer />
       <Consulta />
       <Summary />
-      <Blogs />
+      <Blogs hasLink={true} />
     </main>
   );
 };

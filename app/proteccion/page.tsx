@@ -7,7 +7,8 @@ import HeroImageSections from "@/components/ContentFormat/HeroFormat/HeroImageSe
 
 export const metadata: Metadata = {
   title: "Proteccion",
-  description: "...",
+  description:
+    "Contamos con asesorías de elaboración, implementación, ejecución y actualización del Programa Interno de Protección Civil",
 };
 
 const sections = [

@@ -12,6 +12,7 @@ interface BlogProps {
   description: string;
   link: string;
   image: string;
+  hasLink: boolean;
 }
 
 const Blog = (props: BlogProps) => {
@@ -36,9 +37,11 @@ const Blog = (props: BlogProps) => {
       <h3>{props.title}</h3>
       <div className={classes.date}>{props.date}</div>
       <div className={classes.description}>{props.description}</div>
-      <Link className={classes.link} href={props.link}>
-        LEER MÁS
-      </Link>
+      {props.hasLink && (
+        <Link className={classes.link} href={props.link}>
+          LEER MÁS
+        </Link>
+      )}
     </div>
   );
 };

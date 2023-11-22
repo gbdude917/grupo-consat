@@ -35,7 +35,11 @@ const blogData = [
   },
 ];
 
-const Blogs = () => {
+interface BlogsProps {
+  hasLink: boolean;
+}
+
+const Blogs = (props: BlogsProps) => {
   const [ref, inView] = useInView({ triggerOnce: true });
 
   const runAnimation = inView
@@ -52,7 +56,7 @@ const Blogs = () => {
 
       <div className={classes.blogContainer}>
         {blogData.map((blog, key) => (
-          <Blog {...blog} key={key} />
+          <Blog {...blog} key={key} hasLink={props.hasLink} />
         ))}
       </div>
     </section>
