@@ -25,6 +25,7 @@
 .container h1,
 .container h2 {
   color: #98b460;
+  text-align: center;
 }
 
 .container h1 {
@@ -57,4 +58,11 @@
   -webkit-transition-duration: 0.5s;
   -ms-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    height: 100%;
+    width: 100%;
+  }
 }
