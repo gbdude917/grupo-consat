@@ -13,9 +13,9 @@ const Nav = (children: any) => {
           <li>
             <Link href="/mision">Misión y Visión</Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/">Consultar Dossier</Link>
-          </li>
+          </li> */}
           <li className={classes.dropdown}>
             <Link className={classes.dropdownButton} href="/">
               Servicios <div className={classes.downArrow} />

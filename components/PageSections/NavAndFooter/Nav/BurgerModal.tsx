@@ -46,11 +46,11 @@ const BurgerModal = (props: any) => {
               Misión y Visión
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/" onClick={props.handleBurgerClick}>
               Consultar Dossier
             </Link>
-          </li>
+          </li> */}
           <li>
             <button
               className={classes.servicios__button}
