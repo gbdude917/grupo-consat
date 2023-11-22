@@ -38,4 +38,20 @@
 
 .reference {
   margin-top: 15px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 750px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .imageContainer {
+    width: 100%;
+  }
+
+  .textContainer {
+    width: 100%;
+    padding: 0;
+  }
 }

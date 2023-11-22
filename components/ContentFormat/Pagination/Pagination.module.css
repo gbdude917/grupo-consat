@@ -43,3 +43,10 @@
   color: black;
   background-color: #e5e5e5;
 }
+
+@media screen and (max-width: 750px) {
+  .buttonContainer button {
+    width: 33.33%;
+    font-size: 12px;
+  }
+}
