@@ -1,5 +1,6 @@
-import Blogs from "@/components/ContentFormat/BlogSections/Blogs/Blogs";
 import type { Metadata } from "next";
+
+import Blogs from "@/components/ContentFormat/BlogSections/Blogs/Blogs";
 
 export const metadata: Metadata = {
   title: "Noticias",
