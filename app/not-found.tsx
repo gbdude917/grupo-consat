@@ -1,9 +1,15 @@
+import type { Metadata } from "next";
+
 import Image from "next/image";
 import Link from "next/link";
 
 import classes from "./not-found.module.css";
 
 import logoPic from "../public/images/Logo.png";
+
+export const metadata: Metadata = {
+  title: "Page Not Found!",
+};
 
 export default function NotFound() {
   return (
