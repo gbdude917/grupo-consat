@@ -13,7 +13,7 @@ const blogData = [
     date: "25 Diciembre 2022",
     description:
       "Que esta temporada esté llena de momentos agradables, la pasen de maravilla durante las celebraciones, y que la alegría de estas fechas se extienda hasta año nuevo. Como siempre, muchas gracias. ¡Saludos!",
-    link: "/",
+    link: "/noticias",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const blogData = [
     date: "21 Julio 2022",
     description:
       "Estudio de estructuras geológicas mediante la aplicación de metodologías de geología estructural mediante la elaboración de mapas geológicos y temas relacionados.",
-    link: "/",
+    link: "/noticias",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const blogData = [
     date: "21 Julio 2022",
     description:
       "Aplicación de principios de ingeniería a la ejecución de obras en función de las características de los materiales de la corteza terrestre.",
-    link: "/",
+    link: "/noticias",
   },
 ];
 

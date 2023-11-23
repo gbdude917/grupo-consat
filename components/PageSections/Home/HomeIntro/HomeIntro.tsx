@@ -32,16 +32,16 @@ const HomeIntro = () => {
             <a href="/geotecnia">Geotecnica</a>
           </li>
           <li>
-            <a href="/">Cálculo estructural</a>
+            <a href="/calculo">Cálculo estructural</a>
           </li>
           <li>
-            <a href="/">Construc​ción</a>
+            <a href="/construccion">Construc​ción</a>
           </li>
           <li>
             <a href="/geologia">Geología</a>
           </li>
           <li>
-            <a href="/">
+            <a href="/laboratorio">
               Laboratorio de Control de Calidad para la Industria de la
               Construcción
             </a>
@@ -50,10 +50,10 @@ const HomeIntro = () => {
             <a href="/proteccion">Protección civil & capacitación</a>
           </li>
           <li>
-            <a href="/">Estudios de medio ambiente</a>
+            <a href="/ambiente">Estudios de medio ambiente</a>
           </li>
           <li>
-            <a href="/">Fotogrametr​ía</a>
+            <a href="/fotogrametria">Fotogrametr​ía</a>
           </li>
         </ul>
       </div>

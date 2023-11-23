@@ -62,6 +62,7 @@
 
 .textContainer a:hover {
   color: #98b460;
+  text-decoration: underline;
 }
 
 .imageContainer {

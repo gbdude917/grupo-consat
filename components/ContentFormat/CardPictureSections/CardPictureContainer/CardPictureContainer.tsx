@@ -8,17 +8,17 @@ const CardPictureContainer = () => {
       <CardPicture
         title="Misión"
         imagePath="/images/misiontrimmed.png"
-        href="/"
+        href="/mision"
       />
       <CardPicture
         title="Visión"
         imagePath="/images/visiontrimmed.jpg"
-        href="/"
+        href="/mision"
       />
       <CardPicture
         title="Principios"
         imagePath="/images/principiostrimmed.jpg"
-        href="/"
+        href="/mision"
       />
     </section>
   );

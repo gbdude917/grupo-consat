@@ -63,7 +63,7 @@ const homeArticles = [
     title: "Estudios de medio ambiente",
     description:
       "Se ​previenen, mitigan y restauran los daños al ambiente así como la regulación de obras o actividades para evitar o reducir sus efectos negativos en el ambiente.",
-    link: "/estudios",
+    link: "/ambiente",
     image: "/images/Estudios.jpg",
   },
   {
@@ -78,7 +78,7 @@ const homeArticles = [
     id: 9,
     title: "Proximamente",
     description: "Nos estamos preparando para ofrecer más servicios.",
-    link: "/proximamente",
+    link: "/",
     image: "/images/Proximamente.png",
   },
 ];
