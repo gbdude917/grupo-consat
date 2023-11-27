@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Mision",
   description:
     "Desarrollar proyectos donde al cliente se le genere la confianza de que se buscará la optimización del proyecto en busca de soluciones con un costo-beneficio, llegando a un proyecto sustentable.",
+  applicationName: "Grupo Consat",
+  referrer: "origin-when-cross-origin",
+  robots: "index, follow",
 };
 
 const checkListContents = [

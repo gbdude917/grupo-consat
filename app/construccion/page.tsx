@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   title: "Construc​ción",
   description:
     "Elaboramos presupuestos a sus posibilidades tanto en el ramo comercial, residencial e industrial.",
+  applicationName: "Grupo Consat",
+  referrer: "origin-when-cross-origin",
+  robots: "index, follow",
 };
 
 const contents1 = [

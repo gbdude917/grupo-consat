@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Estudios de medio ambiente",
   description:
     "Conocer los efectos que puede tener el desarrollo de alguna edificación es indispensable para crear planes que disminuyan su impacto ambiental, buscando desarrollos amigables para el ambiente.",
+  applicationName: "Grupo Consat",
+  referrer: "origin-when-cross-origin",
+  robots: "index, follow",
 };
 
 const Ambiente = () => {

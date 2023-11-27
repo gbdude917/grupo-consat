@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Fotogrametr​ía",
   description:
     "Facilita el desarrollo del proyecto haciendo uso de equipo especializado para cada trabajo.",
+  applicationName: "Grupo Consat",
+  referrer: "origin-when-cross-origin",
+  robots: "index, follow",
 };
 
 const Fotogrametria = () => {

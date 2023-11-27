@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Calculo",
   description:
     "Ofrecemos servicios para el diseño de una infraestructura con el fin de cumplir los estándares de calidad que requieren de seguridad.",
+  applicationName: "Grupo Consat",
+  referrer: "origin-when-cross-origin",
+  robots: "index, follow",
 };
 
 const Calculo = () => {

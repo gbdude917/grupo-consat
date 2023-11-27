@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   title: "Geología",
   description:
     "Ofrecemos servicios profesionales en geología que van desde el levantamiento geológico en superficie hasta la detección oportuna de fallas y fracturas geológicas, todo esto con el objetivo de complementar nuestros estudios y análisis geotécnicos",
+  applicationName: "Grupo Consat",
+  referrer: "origin-when-cross-origin",
+  robots: "index, follow",
 };
 
 const contents = [

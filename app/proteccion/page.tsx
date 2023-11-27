@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Proteccion",
   description:
     "Contamos con asesorías de elaboración, implementación, ejecución y actualización del Programa Interno de Protección Civil",
+  applicationName: "Grupo Consat",
+  referrer: "origin-when-cross-origin",
+  robots: "index, follow",
 };
 
 const sections = [

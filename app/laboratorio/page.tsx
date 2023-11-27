@@ -9,6 +9,9 @@ export const metadata: Metadata = {
     "Laboratorio de Control de Calidad para la Industria de la Construcción",
   description:
     "Nuestra prioridad es atender las necesidades de nuestros clientes, aplicando la normatividad vigente Nacional e Internacional que sea requerida, para mantener y mejorar la calidad de nuestros trabajos, considerando siempre la prevención de riesgos en beneficio de la seguridad de todos.",
+  applicationName: "Grupo Consat",
+  referrer: "origin-when-cross-origin",
+  robots: "index, follow",
 };
 
 const Laboratorio = () => {

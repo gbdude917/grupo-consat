@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Home",
   description:
     "Somos una empresa mexicana con sede en Tijuana Baja California, nuestra experiencia de más de 25 años nos permite ofrecer servicios en diversas ramas de la ingeniería civil.",
+  applicationName: "Grupo Consat",
+  referrer: "origin-when-cross-origin",
+  robots: "index, follow",
 };
 
 const Home = () => {
