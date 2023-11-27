@@ -1,5 +1,3 @@
-import { Analytics } from "@vercel/analytics/react";
-
 import ImageCarousel from "@/components/ContentFormat/Carousel/ImageCarousel";
 import HomeIntro from "@/components/PageSections/Home/HomeIntro/HomeIntro";
 import CardPictureContainer from "@/components/ContentFormat/CardPictureSections/CardPictureContainer/CardPictureContainer";
@@ -10,7 +8,7 @@ import Blogs from "@/components/ContentFormat/BlogSections/Blogs/Blogs";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: "Grupo Consat | Home",
   description:
     "Somos una empresa mexicana con sede en Tijuana Baja California, nuestra experiencia de más de 25 años nos permite ofrecer servicios en diversas ramas de la ingeniería civil.",
   applicationName: "Grupo Consat",
@@ -20,17 +18,14 @@ export const metadata: Metadata = {
 
 const Home = () => {
   return (
-    <>
-      <main>
-        <ImageCarousel />
-        <HomeIntro />
-        <CardPictureContainer />
-        <Consulta />
-        <Summary />
-        <Blogs hasLink={true} />
-      </main>
-      <Analytics />
-    </>
+    <main>
+      <ImageCarousel />
+      <HomeIntro />
+      <CardPictureContainer />
+      <Consulta />
+      <Summary />
+      <Blogs hasLink={true} />
+    </main>
   );
 };
 
