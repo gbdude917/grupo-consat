@@ -63,6 +63,7 @@ const ImageCarousel = () => {
         <button
           className={`${classes["carousel-button"]} ${classes["left-button"]}`}
           onClick={handlePrevImage}
+          aria-label="Previous Image"
         >
           <div className={classes.leftArrow} />
         </button>
@@ -73,6 +74,7 @@ const ImageCarousel = () => {
         <button
           className={`${classes["carousel-button"]} ${classes["right-button"]}`}
           onClick={handleNextImage}
+          aria-label="Previous Image"
         >
           <div className={classes.rightArrow} />
         </button>
