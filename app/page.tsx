@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+
 import ImageCarousel from "@/components/ContentFormat/Carousel/ImageCarousel";
 import HomeIntro from "@/components/PageSections/Home/HomeIntro/HomeIntro";
 import CardPictureContainer from "@/components/ContentFormat/CardPictureSections/CardPictureContainer/CardPictureContainer";
@@ -18,14 +20,17 @@ export const metadata: Metadata = {
 
 const Home = () => {
   return (
-    <main>
-      <ImageCarousel />
-      <HomeIntro />
-      <CardPictureContainer />
-      <Consulta />
-      <Summary />
-      <Blogs hasLink={true} />
-    </main>
+    <>
+      <main>
+        <ImageCarousel />
+        <HomeIntro />
+        <CardPictureContainer />
+        <Consulta />
+        <Summary />
+        <Blogs hasLink={true} />
+      </main>
+      <Analytics />
+    </>
   );
 };
 
