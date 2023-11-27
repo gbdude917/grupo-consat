@@ -17,9 +17,12 @@ const Nav = (children: any) => {
             <Link href="/">Consultar Dossier</Link>
           </li> */}
           <li className={classes.dropdown}>
-            <Link className={classes.dropdownButton} href="/">
+            {/* <Link className={classes.dropdownButton} href="/">
               Servicios <div className={classes.downArrow} />
-            </Link>
+            </Link> */}
+            <div className={classes.dropdownButton}>
+              Servicios <div className={classes.downArrow} />
+            </div>
             <div className={classes["dropdown-content"]}>
               <Link href="/geotecnia">Geotecnia</Link>
               <Link href="/proteccion">
@@ -33,7 +36,7 @@ const Nav = (children: any) => {
               <Link href="/fotogrametria">Fotogrametría</Link>
             </div>
           </li>
-          <li>
+          {/* <li>
             <a href="/">Constancias y Licencias</a>
           </li>
           <li className={classes.dropdown}>
@@ -47,7 +50,7 @@ const Nav = (children: any) => {
               <a href="/">dbjconsat@hotmail.com</a>
               <a href="/">administracion@hotmail.com</a>
             </div>
-          </li>
+          </li> */}
           <li>
             <a href="/noticias">Noticias</a>
           </li>

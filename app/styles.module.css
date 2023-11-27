@@ -109,6 +109,10 @@
   margin-left: 0.25em;
 }
 
+.dropdownButton:hover {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 1210px) {
   .container {
     width: 80vw;

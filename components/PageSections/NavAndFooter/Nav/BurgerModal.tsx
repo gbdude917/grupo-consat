@@ -90,10 +90,10 @@ const BurgerModal = (props: any) => {
               </Link>
             </div>
           </li>
-          <li>
+          {/* <li>
             <a href="/">Constancias y Licencias</a>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <button
               className={classes.servicios__button}
               onClick={handleContactanosClick}
@@ -121,9 +121,9 @@ const BurgerModal = (props: any) => {
                 administracion@hotmail.com
               </a>
             </div>
-          </li>
+          </li> */}
           <li>
-            <a href="/">Noticias</a>
+            <a href="/noticias">Noticias</a>
           </li>
         </ul>
       </div>
