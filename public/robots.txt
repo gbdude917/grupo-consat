@@ -1,0 +1,9 @@
+Sitemap: https://www.grupoconsat.com/sitemap.xml
+User-agent: *
+Crawl-delay: 5
+
+Allow: /
+Disallow: /laboratorio
+Disallow: /asfalto
+Disallow: /concreto
+Disallow: /pavimentos
