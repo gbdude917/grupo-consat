@@ -2,6 +2,7 @@
   display: flex;
   padding: 20px 0;
   height: 40vh;
+  margin-bottom: 25px;
 }
 
 /* Slide-right animation */
@@ -69,20 +70,31 @@
   width: 30vw;
   padding-right: 100px;
   animation: createSection 1s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .image {
-  height: 240px;
+  object-fit: contain;
+  max-height: 100%;
   width: 100%;
 }
 
 .imageContainer figcaption {
   color: #98b460;
+  text-align: center;
 }
 
 @media screen and (max-width: 1085px) {
   .image {
     width: 140%;
+  }
+
+  .imageContainer {
+    width: 400px;
   }
 
   .textContainer h3 {
@@ -108,7 +120,7 @@
 
   .imageContainer {
     width: auto;
-    height: 90%;
+    height: 400px;
     padding: 10px 75px;
     display: flex;
     flex-direction: column;
@@ -122,16 +134,16 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 490px) {
+  .wrapper {
+    margin-bottom: 100px;
+  }
+
   .textContainer {
     padding: 0 15px;
   }
 
   .imageContainer {
     padding: 0 15px;
-  }
-
-  .image {
-    width: 100%;
   }
 }
