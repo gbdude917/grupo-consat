@@ -6,11 +6,12 @@ const BurgerButton = (props: any) => {
       className={classes.burgerContainer}
       id="burger-menu"
       onClick={props.handleBurgerClick}
+      aria-label="Open burger menu"
     >
       <div>
-        <div className={classes.bar}></div>
-        <div className={classes.bar}></div>
-        <div className={classes.bar}></div>
+        <div className={classes.bar} />
+        <div className={classes.bar} />
+        <div className={classes.bar} />
       </div>
     </button>
   );

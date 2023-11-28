@@ -24,9 +24,10 @@ const BurgerModal = (props: any) => {
   const isServiciosOpen = serviciosOpen
     ? `${classes["burger-dropdown-content"]} ${classes.dropdownShow}`
     : `${classes["burger-dropdown-content"]} ${classes.dropdownHide}`;
-  const isContactanosOpen = contactanosOpen
-    ? `${classes["burger-dropdown-content"]} ${classes.dropdownShow}`
-    : `${classes["burger-dropdown-content"]} ${classes.dropdownHide}`;
+
+  // const isContactanosOpen = contactanosOpen
+  //   ? `${classes["burger-dropdown-content"]} ${classes.dropdownShow}`
+  //   : `${classes["burger-dropdown-content"]} ${classes.dropdownHide}`;
 
   return (
     <div className={props.modalIsOpen}>
