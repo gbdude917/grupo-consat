@@ -1,118 +1,94 @@
+.container,
+.containerHidden {
+  width: 100vw;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+}
 .wrapper {
   display: inline-block;
 }
-
 .container {
   display: flex;
-
-  width: 100vw;
-  background-color: #f2f2f2;
-  padding: 20px 0;
 }
-
 .hidden {
-  height: 0px;
+  height: 0;
   overflow: hidden;
 }
-
-/* Ensure that container is shown */
 .containerHidden {
   height: 100vh;
-  width: 100vw;
-  background-color: #f2f2f2;
-  padding: 20px 0;
 }
-
+.image,
+.textContainer {
+  height: auto;
+}
 .show {
-  animation: createSection 1s;
+  animation: 1s createSection;
 }
-
 @keyframes createSection {
   from {
     transform: scale(0);
   }
-
   to {
     transform: scale(1);
   }
 }
-
 .imageWrapper {
   width: 50%;
   padding: 50px 5vw;
   object-fit: cover;
 }
-
 .image {
-  height: auto;
   width: 100%;
   object-fit: cover;
 }
-
 .textWrapper {
   width: 50%;
   margin: auto;
 }
-
-.textContainer {
-  height: auto;
-}
-
 .textContainer h2 {
   text-align: center;
   font-size: 50px;
   padding: 0 10px;
 }
-
 .line {
-  border-bottom: 7px #98b460 solid;
+  border-bottom: 7px solid #98b460;
   width: 100px;
   margin: 20px auto;
 }
-
 .textContainer p {
-  /* padding: 0 10px; */
   width: 100%;
   line-height: 30px;
 }
-
 .checklist {
   display: flex;
   flex-direction: column;
   align-items: space-between;
 }
-
 @media screen and (max-width: 1150px) {
   .imageWrapper {
     padding: 75px 5px;
   }
-
   .image {
     max-height: 100%;
     max-width: 100%;
   }
 }
-
 @media screen and (max-width: 925px) {
   .textContainer h2 {
     text-align: center;
     font-size: 45px;
   }
-
   .imageWrapper {
     display: none;
   }
-
   .textWrapper {
     width: 100%;
   }
-
   .textContainer {
     width: 100%;
     margin: auto;
   }
 }
-
 @media screen and (max-width: 500px) {
   .textContainer h2 {
     text-align: center;

@@ -1,45 +1,39 @@
+.circle,
+.hide,
+.image,
+.wrapperHidden {
+  overflow: hidden;
+}
 .wrapper {
   height: 50vh;
   width: 80;
   margin: 2vh auto;
-
   display: flex;
   justify-content: center;
 }
-
 .container {
   height: 100%;
   width: 85%;
-
   display: flex;
   padding: 25px 0;
 }
-
-/* Pop-up animation */
 @keyframes createSection {
   from {
     transform: scale(0);
   }
-
   to {
     transform: scale(1);
   }
 }
-
 .wrapperHidden {
   height: 100vh;
-  overflow: hidden;
 }
-
 .show {
-  animation: createSection 1s;
+  animation: 1s createSection;
 }
-
 .hide {
-  height: 0px;
-  overflow: hidden;
+  height: 0;
 }
-
 .imageWrapper {
   width: 30%;
   align-items: center;
@@ -48,93 +42,74 @@
   justify-content: center;
   align-items: center;
 }
-
 .circle {
   height: 250px;
   width: 250px;
   border-radius: 50%;
-  overflow: hidden;
 }
-
 .image {
   height: 100%;
   width: 100%;
-  overflow: hidden;
   object-fit: cover;
 }
-
 .imageContainer figcaption {
   text-align: center;
   margin-top: 15px;
 }
-
 .textWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .textContainer {
   padding-left: 30px;
 }
-
 .textContainer h2 {
   margin-bottom: 30px;
 }
-
 .textContainer p {
   line-height: 30px;
 }
-
 @media screen and (max-width: 770px) {
   .container {
     width: 100%;
     padding: 25px 10px;
   }
-
   .imageWrapper {
     margin-right: 5px;
   }
-
   .circle {
     height: 150px;
     width: 150px;
   }
-
   .textContainer h2 {
     font-size: 20px;
   }
-
   .textContainer p {
     line-height: 30px;
     font-size: 15px;
   }
 }
-
 @media screen and (max-width: 550px) {
   .wrapper {
     height: auto;
     margin: 5px auto;
   }
-
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 12.5px 0;
   }
-
   .imageWrapper {
     width: 50%;
     margin: 0;
   }
-
   .imageContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .textContainer {
     margin-top: 10px;
     padding: 0 20px;

@@ -1,123 +1,85 @@
+.imageContainer,
+.show,
+.textContainer {
+  animation: 1s createSection;
+}
 .wrapper {
   display: flex;
   padding: 20px 0;
   height: 40vh;
   margin-bottom: 25px;
 }
-
-/* Slide-right animation */
-/* .slide-right {
-  animation: 1.5s slide-right;
-}
-
-@keyframes slide-right {
-  from {
-    margin-right: 150%;
-    opacity: 0;
-  }
-
-  to {
-    margin-right: 0%;
-    opacity: 1;
-  }
-} */
-
-/* Pop-up animation */
 @keyframes createSection {
   from {
     transform: scale(0);
   }
-
   to {
     transform: scale(1);
   }
 }
-
-.show {
-  animation: createSection 1s;
-}
-
 .textContainer {
   width: 70vw;
   padding: 0 100px;
-  animation: createSection 1s;
 }
-
 .textContainer h3 {
   font-size: 17.5px;
   margin-bottom: 10px;
 }
-
 .textContainer ul {
   list-style: none;
 }
-
 .textContainer li {
   margin: 10px 0;
 }
-
 .textContainer a {
-  color: black;
+  color: #000;
   text-decoration: none;
 }
-
 .textContainer a:hover {
   color: #98b460;
   text-decoration: underline;
 }
-
 .imageContainer {
   width: 30vw;
   padding-right: 100px;
-  animation: createSection 1s;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 .image {
   object-fit: contain;
   max-height: 100%;
   width: 100%;
 }
-
 .imageContainer figcaption {
   color: #98b460;
   text-align: center;
 }
-
 @media screen and (max-width: 1085px) {
   .image {
     width: 140%;
   }
-
   .imageContainer {
     width: 400px;
   }
-
   .textContainer h3 {
     font-size: 15px;
     margin-bottom: 10px;
   }
-
   .textContainer a {
     font-size: 11px;
   }
 }
-
 @media screen and (max-width: 850px) {
   .wrapper {
     flex-direction: column;
     height: 700px;
   }
-
   .textContainer {
     width: 100%;
     padding: 0 75px;
   }
-
   .imageContainer {
     width: auto;
     height: 400px;
@@ -127,23 +89,17 @@
     justify-content: center;
     align-items: center;
   }
-
   .image {
     max-width: 100%;
     max-height: 100%;
   }
 }
-
 @media screen and (max-width: 490px) {
   .wrapper {
     margin-bottom: 100px;
   }
-
+  .imageContainer,
   .textContainer {
-    padding: 0 15px;
-  }
-
-  .imageContainer {
     padding: 0 15px;
   }
 }

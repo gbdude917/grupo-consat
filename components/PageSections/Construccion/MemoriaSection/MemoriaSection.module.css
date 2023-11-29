@@ -1,17 +1,14 @@
 .section__hero {
   margin-top: 100px;
 }
-
 .section__hero__header h2 {
   font-size: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin: 25px 0;
   text-align: center;
 }
-
 @media screen and (max-width: 425px) {
   .section__hero__header {
     font-size: 25px;

@@ -3,70 +3,54 @@
   height: 395px;
   margin: 30px 5px;
 }
-
 .enlarge {
   height: 450px;
 }
-
-/* Pop-up animation */
 @keyframes createSection {
   from {
     transform: scale(0);
   }
-
   to {
     transform: scale(1);
   }
 }
-
 .show {
-  animation: createSection 1s;
+  animation: 1s createSection;
 }
-
 .hidden {
-  height: 0px;
+  height: 0;
   overflow: hidden;
 }
-
+.image,
+.imageContainer {
+  width: 100%;
+  height: 170px;
+}
 .hideLink {
   display: none;
 }
-
-.imageContainer {
-  height: 170px;
-  width: 100%;
-}
-
 .image {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
-  height: 170px;
 }
-
 .container h3 {
   margin: 20px 0;
   height: 35px;
   text-align: center;
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .description {
   margin-top: 10px;
   margin-bottom: 20px;
   height: 100px;
   line-height: 25px;
 }
-
 .link {
   text-decoration: underline 2px;
-  color: black;
+  color: #000;
   text-underline-offset: 7.5px;
 }
-
 .link:hover {
   color: #98b460;
 }

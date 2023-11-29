@@ -1,69 +1,55 @@
 .hide {
   display: none;
 }
-
 .wrapper {
   display: flex;
   flex-direction: column;
 }
-
 .content {
   display: flex;
   flex-wrap: nowrap;
 }
-
 .imageContainer {
   width: 45%;
   object-fit: contain;
   margin-top: 15px;
 }
-
 .image {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
 }
-
 .textContainer {
   width: 55%;
   padding: 15px 20px;
   margin-top: 15px;
-
   line-height: 30px;
 }
-
 .textContainer h3 {
   margin: 15px 0;
 }
-
 .listContainer {
   display: flex;
   margin-top: 35px;
 }
-
 .equipo,
 .material {
   width: 50%;
 }
-
 .equipo {
   margin-right: 15px;
 }
-
 .reference {
   margin-top: 15px;
   line-height: 30px;
 }
-
 @media screen and (max-width: 750px) {
   .content {
     flex-direction: column;
   }
-
   .imageContainer {
     width: 100%;
   }
-
   .textContainer {
     width: 100%;
     padding: 0;

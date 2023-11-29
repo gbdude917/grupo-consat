@@ -2,7 +2,6 @@
   width: 100vw;
   margin: 150px 0;
 }
-
 .header {
   display: flex;
   flex-direction: column;
@@ -10,27 +9,21 @@
   align-items: center;
   margin: 25px 0;
 }
-
 .header h2 {
   font-size: 40px;
   text-align: center;
 }
-
 .line {
-  border-bottom: 7px #98b460 solid;
+  border-bottom: 7px solid #98b460;
   width: 100px;
   margin-top: 25px;
 }
-
 .content {
   display: flex;
   flex-wrap: wrap;
-
   justify-content: center;
-
   align-items: center;
 }
-
 @media screen and (max-width: 450px) {
   .header h2 {
     font-size: 25px;

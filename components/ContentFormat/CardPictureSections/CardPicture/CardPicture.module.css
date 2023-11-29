@@ -1,62 +1,52 @@
+.textContainer a:hover,
+.textContainer h3 {
+  text-decoration: underline #98b460;
+}
 .container {
   width: 33%;
   height: 90px;
   text-decoration: none;
-
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 .show {
-  animation: createSection 1s;
+  animation: 1s createSection;
 }
-
 @keyframes createSection {
   from {
     transform: scale(0);
   }
-
   to {
     transform: scale(1);
   }
 }
-
 .textContainer {
   display: flex;
   justify-content: space-between;
   height: 100%;
   width: 100%;
 }
-
-.textContainer h3,
-.textContainer a {
-  color: white;
+.textContainer a,
+.textContainer h3 {
+  color: #fff;
   width: 50%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .textContainer h3 {
   font-size: 30px;
-  text-decoration: underline #98b460;
   text-align: left;
 }
-
 .textContainer a {
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
 }
-
-.textContainer a:hover {
-  text-decoration: underline #98b460;
-}
-
 .arrow-right {
   border: solid #98b460;
   border-width: 0 3px 3px 0;
@@ -65,34 +55,28 @@
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
-
 @media screen and (max-width: 860px) {
-  .textContainer h3,
-  .textContainer a {
+  .textContainer a,
+  .textContainer h3 {
     width: 50%;
   }
-
   .textContainer h3 {
     font-size: 20px;
   }
-
   .textContainer a {
     font-size: 12px;
   }
 }
-
 @media screen and (max-width: 610px) {
-  .container {
-    width: 100%;
-    margin: 2.5px 0;
-  }
-
+  .container,
   .textContainer {
     width: 100%;
   }
-
-  .textContainer h3,
-  .textContainer a {
+  .container {
+    margin: 2.5px 0;
+  }
+  .textContainer a,
+  .textContainer h3 {
     width: 40%;
   }
 }

@@ -1,20 +1,18 @@
 .wrapper {
   width: 100vw;
 }
-
 .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
-
 .header h2 {
   font-size: 40px;
 }
-
 .line {
-  border-bottom: 7px #98b460 solid;
+  border-bottom: 7px solid #98b460;
   width: 100px;
   margin-top: 25px;
 }

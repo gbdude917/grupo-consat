@@ -1,31 +1,25 @@
 .closeButtonContainer {
   position: absolute;
-  top: 0; /* Position at the top of the container */
-  right: 0; /* Position at the left of the container */
-
+  top: 0;
+  right: 0;
   margin-top: 8px;
   margin-right: 8px;
 }
-
 .closeButtonContainer button {
   background-color: transparent;
   border: none;
-  color: white;
-  font-weight: bold;
+  color: #fff;
+  font-weight: 700;
   font-size: 25px;
 }
-
 .linkContainer {
   height: 80vh;
   width: 100%;
 }
-
 .linkContainer ul {
   width: 100%;
   padding-left: 5px;
 }
-
-/* Used for burger modal dropdowns */
 .burger-dropdown-content {
   width: 100%;
   display: none;
@@ -33,45 +27,39 @@
   background-color: #3a3839;
   min-width: 160px;
   z-index: 3;
-
   overflow: auto;
 }
-
+.downArrow,
+.servicios__button {
+  border: none;
+  background-color: transparent;
+}
 .burger-dropdown-content a {
   padding-left: 2.5px;
   margin-top: 8px;
   margin-left: 4px;
 }
-
 .dropdownShow {
   display: flex;
   flex-direction: column;
 }
-
 .dropdownHide {
   display: none;
 }
-
 .servicios__button {
-  background-color: transparent;
-  border: none;
-  color: white;
+  color: #fff;
   font-size: 16px;
   margin-right: 0.25em;
 }
-
 .downArrow {
-  border: none; /* Remove button borders for burger modal */
-  background-color: transparent; /* Remove button color for burger modal */
-
   position: relative;
   top: -2.5px;
   content: "";
   display: inline-block;
   width: 7px;
   height: 7px;
-  border-right: 0.2em solid white;
-  border-top: 0.2em solid white;
+  border-right: 0.2em solid #fff;
+  border-top: 0.2em solid #fff;
   border-width: thin;
   transform: rotate(135deg);
   margin-right: 0.5em;

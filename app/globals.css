@@ -4,13 +4,11 @@
   margin: 0;
   font-family: sans-serif, "Open Sans";
 }
-
-html,
-body {
+body,
+html {
   max-width: 100vw;
   overflow-x: hidden;
 }
-
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -20,8 +18,6 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
 main {
-  padding: 0 !important;
-  padding-top: 54px !important;
+  padding: 54px 0 0 !important;
 }

@@ -1,28 +1,27 @@
+.textWrapper a,
+.wrapper {
+  display: flex;
+  color: #000;
+}
 .wrapper {
   height: auto;
   width: 100vw;
   margin: 100px auto;
   padding: 0 40px;
-  display: flex;
-  color: black;
-  background-color: white;
+  background-color: #fff;
 }
-
 .line {
-  border-bottom: 7px #98b460 solid;
+  border-bottom: 7px solid #98b460;
   width: 100px;
   margin: 15px auto;
 }
-
 .textContainer {
   height: 100%;
   width: 50%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .textWrapper {
   margin: auto;
   display: flex;
@@ -30,13 +29,11 @@
   align-items: center;
   padding: 10px;
 }
-
 .textWrapper h2 {
   font-size: 35px;
   margin: 5px 0;
   text-align: center;
 }
-
 .textWrapper p {
   font-size: 15px;
   margin-top: 10px;
@@ -44,54 +41,40 @@
   line-height: 30px;
   white-space: pre-line;
 }
-
 .textWrapper a {
   height: 55px;
   width: 400px;
-
-  border: 2px solid black;
+  border: 2px solid #000;
   border-radius: 35px;
-
-  display: flex;
   justify-content: center;
   align-items: center;
-
-  color: black;
   text-decoration: none;
-  font-weight: bold;
-
+  font-weight: 700;
   margin: 10px 0;
 }
-
 .textWrapper a:hover {
   color: #98b460;
   border-color: #98b460;
 }
-
 .imageWrapper {
   width: 50%;
 }
-
 .image {
   height: 100%;
   width: 100%;
 }
-
 @media screen and (max-width: 910px) {
   .image {
     object-fit: cover;
   }
-
   .textWrapper h2 {
     font-size: 25px;
   }
-
   .textWrapper a {
     width: 275px;
     font-size: 11px;
   }
 }
-
 @media screen and (max-width: 680px) {
   .wrapper {
     display: flex;
@@ -101,19 +84,16 @@
     width: 95vw;
     padding: 0;
   }
-
-  .textContainer,
-  .imageWrapper {
+  .imageWrapper,
+  .textContainer {
     text-overflow: ellipsis;
     width: 95%;
   }
-
   .textWrapper a {
     width: 400px;
     font-size: 15px;
   }
 }
-
 @media screen and (max-width: 450px) {
   .textWrapper a {
     width: 270px;

@@ -1,67 +1,52 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-
   width: 100vw;
-  margin-top: -250px; /* Remove excess white space from top of image*/
+  margin-top: -250px;
 }
-
 .imageContainer {
   height: 522px;
   width: 100vw;
   display: inline-block;
 }
-
-.img {
-  height: 100%;
-  width: 100%;
-}
-
+.img,
 .textContainer {
   height: 100%;
   width: 100%;
+}
+.textContainer {
   background-color: #4d4d4d;
 }
-
 .header {
   width: 100%;
-
   text-align: center;
   margin: 30px 0;
 }
-
-/* Pop-up animation */
 @keyframes createSection {
   from {
     transform: scale(0);
   }
-
   to {
     transform: scale(1);
   }
 }
-
 .show {
-  animation: createSection 1s;
+  animation: 1s createSection;
 }
-
 .header h3 {
   color: #98b460;
   font-size: 25px;
 }
-
 .header h2 {
-  color: white;
+  color: #fff;
   margin: 5px 0;
   font-size: 40px;
 }
-
 .line {
-  border-bottom: solid 5px white;
+  border-bottom: 5px solid #fff;
   width: 50px;
   margin: 10px auto;
 }
-
 .cardContainer {
   display: flex;
   justify-content: space-around;

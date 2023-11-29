@@ -1,125 +1,94 @@
-.footer {
-  display: flex;
-  flex-direction: column;
-}
-
+.fontawesome,
+.footer a:hover,
 .footer h3 {
   color: #98b460;
 }
-
+.bottom,
+.contact li,
+.container,
+.external-links,
+.footer,
+.image-wrapper,
+.phone-header {
+  display: flex;
+}
+.footer {
+  flex-direction: column;
+}
 .footer a {
   text-decoration: none;
-  color: black;
+  color: #000;
 }
-
-.footer a:hover {
-  color: #98b460;
-}
-
 .image-wrapper {
   flex-grow: 1.5;
-}
-
-.container {
-  display: flex;
-  padding: 50px 0;
-}
-
-.image-wrapper {
   height: 280px;
   width: 40%;
-
-  display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.container {
+  padding: 50px 0;
+}
 .image {
   height: 280px;
   width: 413px;
 }
-
+.contactWrapper,
 .servicesWrapper {
   width: 30%;
 }
-
 .services ul {
   list-style: none;
 }
-
 .services li {
   padding-top: 5px;
 }
-
 .services li::before {
   content: "> ";
-  color: #98b460; /* or whatever color you prefer */
+  color: #98b460;
 }
-
 .icons {
   height: 15px;
   width: 15px;
   margin-right: 5px;
 }
-
 .phone li {
   margin: 3px 0;
 }
-
 .phone-header {
-  display: flex;
   align-items: center;
 }
-
-.contactWrapper {
-  width: 30%;
-}
-
-.contact > *:not(h3) {
+.contact > :not(h3) {
   margin: 7.5px 0;
 }
-
-.contact li {
-  display: flex;
-}
-
 .link {
   width: 300px;
 }
-
 .external-links {
   width: 100vw;
   height: 50px;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .external-links div {
   width: 150px;
   display: flex;
   justify-content: space-between;
 }
-
 .fontawesome {
   height: 30px;
   width: 30px;
-  color: #98b460;
 }
-
 .bottom {
-  color: white;
+  color: #fff;
   background-color: #3a3839;
   height: 50px;
   text-align: center;
-  display: flex;
   justify-content: center;
 }
-
 .bottom span {
   margin: auto;
 }
-
 .arrow-right {
   width: 0;
   height: 0;
@@ -127,71 +96,54 @@
   margin-right: 3px;
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
-
   border-left: 5px solid #98b460;
 }
-
 @media screen and (max-width: 988px) {
   .image-wrapper {
     display: none;
   }
-
   .servicesWrapper {
     margin-left: 10px;
     width: 50%;
     display: flex;
     justify-content: center;
   }
-
   .contactWrapper {
     width: 50%;
     display: flex;
     justify-content: center;
   }
 }
-
 @media screen and (max-width: 600px) {
-  .container {
+  .container,
+  .phone {
     flex-direction: column;
   }
-
   .servicesWrapper {
     margin: 0;
     text-align: center;
     width: 100vw;
   }
-
+  .contact,
   .services {
     text-align: center;
-
     width: 100%;
   }
-
   .contactWrapper {
     width: 100vw;
     text-align: center;
     margin-top: 30px;
   }
-
-  .contact {
-    text-align: center;
-
-    width: 100%;
-  }
-
   .phone {
     display: flex;
-    flex-direction: column;
     align-items: center;
   }
-
   .address {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 30px !important;
   }
-
   .link {
     margin: auto;
     width: 80%;
