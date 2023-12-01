@@ -6,7 +6,7 @@ import HeroImageSection from "@/components/ContentFormat/HeroFormat/HeroImageSec
 import Memoria from "@/components/PageSections/Calculo/MemoriaSection/Memoria";
 
 export const metadata: Metadata = {
-  title: "Calculo",
+  title: "Cálculo",
   description:
     "Ofrecemos servicios para el diseño de una infraestructura con el fin de cumplir los estándares de calidad que requieren de seguridad.",
   applicationName: "Grupo Consat",

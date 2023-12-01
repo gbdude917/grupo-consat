@@ -5,7 +5,7 @@ import TextWithImage from "@/components/ContentFormat/TextWithImage/TextWithImag
 import ChecklistImage from "@/components/ContentFormat/Checklist/ChecklistImage/ChecklistImage";
 
 export const metadata: Metadata = {
-  title: "Mision",
+  title: "Misión",
   description:
     "Desarrollar proyectos donde al cliente se le genere la confianza de que se buscará la optimización del proyecto en busca de soluciones con un costo-beneficio, llegando a un proyecto sustentable.",
   applicationName: "Grupo Consat",
