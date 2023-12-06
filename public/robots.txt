@@ -3,7 +3,7 @@ User-agent: *
 Crawl-delay: 5
 
 Allow: /
-Disallow: /laboratorio
 Disallow: /asfalto
 Disallow: /concreto
+Disallow: /mecanica
 Disallow: /pavimentos
