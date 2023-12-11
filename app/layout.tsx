@@ -1,4 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Metadata } from "next";
 
 import Footer from "@/components/PageSections/NavAndFooter/Footer/Footer";
@@ -20,6 +21,8 @@ function RootLayout({ children }: { children: React.ReactNode }) {
         <BurgerContainer>{children}</BurgerContainer>
 
         <Footer />
+
+        <SpeedInsights />
       </body>
 
       <Analytics />
