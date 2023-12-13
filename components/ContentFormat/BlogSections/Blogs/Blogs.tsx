@@ -7,7 +7,14 @@ import classes from "./Blogs.module.css";
 
 const blogData = [
   {
-    id: 1,
+    title: "Grupo CONSAT les desea ¡Feliz Navidad y Feliz Año Nuevo!",
+    image: "/images/feliz2024.png",
+    date: "",
+    description:
+      "A medida que el año llega a su fin, queremos expresar nuestro sincero agradecimiento a todos y cada uno de ustedes por su arduo trabajo y dedicación. Deseándole a usted y a sus familias una feliz temporada de vacaciones llena de amor, risas y merecida relajación. ¡Feliz Navidad y Feliz Año Nuevo!",
+    link: "/noticias",
+  },
+  {
     title: "Grupo CONSAT les desea ¡Felices Fiestas!",
     image: "/images/Fiestas.jpg",
     date: "25 Diciembre 2022",
@@ -16,7 +23,6 @@ const blogData = [
     link: "/noticias",
   },
   {
-    id: 2,
     title: "Mapas geológicos",
     image: "/images/GeologiaData4.png",
     date: "21 Julio 2022",
@@ -25,7 +31,6 @@ const blogData = [
     link: "/noticias",
   },
   {
-    id: 3,
     title: "Geotecnia",
     image: "/images/GeotecniaHills.jpg",
     date: "21 Julio 2022",

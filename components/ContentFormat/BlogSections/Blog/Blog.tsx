@@ -6,7 +6,6 @@ import { useInView } from "react-intersection-observer";
 import classes from "./Blog.module.css";
 
 interface BlogProps {
-  id: number;
   title: string;
   date: string;
   description: string;
@@ -23,7 +22,7 @@ const Blog = (props: BlogProps) => {
     : `${classes.wrapper}`;
 
   return (
-    <div ref={ref} key={props.id} className={runAnimation}>
+    <div ref={ref} className={runAnimation}>
       <div className={classes.imageContainer}>
         <Image
           src={props.image}
